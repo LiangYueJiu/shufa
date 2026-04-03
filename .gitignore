@@ -1,0 +1,42 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache / virtual env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Large datasets
+chinese_fonts/
+
+# Model weights / checkpoints
+*.pth
+*.pt
+checkpoints/
+latest_checkpoint.pth
+checkpoint_epoch_*.pth
+
+# Generated outputs
+output/
+
+# Runtime files
+*.log
+
+# Jupyter
+.ipynb_checkpoints/

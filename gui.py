@@ -12,7 +12,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 class Recognizer:
-    def __init__(self, model_path='best_model.pth', map_path='char_map.json', data_dir=''):
+    def __init__(self, model_path=os.path.join('output', 'models', 'best_model.pth'), map_path='char_map.json', data_dir=''):
         if not os.path.exists(model_path) or not os.path.exists(map_path):
             raise FileNotFoundError("模型文件或字符映射表不存在，请先运行 train_model.py 训练模型。")
 

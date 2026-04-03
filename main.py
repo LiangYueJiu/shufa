@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # --- 配置部分 ---
-MODEL_PATH = "best_model.pth"
+MODEL_PATH = os.path.join("output", "models", "best_model.pth")
 MAP_PATH = "char_map.json"
 
 # --- 全局初始化模型（启动时加载一次） ---
