@@ -1,0 +1,13 @@
+Epoch: 48
+Samples: 33561
+Accuracy: 0.7264
+Precision: 0.7340
+Recall: 0.7264
+F1-score: 0.7119
+Macro F1: 0.4572
+Val Loss: 1.8576
+Val Acc: 0.7264
+Total Parameters: 36955619
+Trainable Parameters: 28412323
+Inference Time Total (s): 42.291107
+Inference Time Per Sample (ms): 1.260127

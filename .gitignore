@@ -33,10 +33,10 @@ latest_checkpoint.pth
 checkpoint_epoch_*.pth
 
 # Generated outputs
-output/
+# output/
 
 # Runtime files
-*.log
+# *.log
 
 # Jupyter
 .ipynb_checkpoints/

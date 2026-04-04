@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.7977414260600101,
+  "precision": 0.8076365567528215,
+  "recall": 0.7977414260600101,
+  "f1": 0.7891132949132676,
+  "macro_f1": 0.5270066478392973,
+  "num_samples": 33561,
+  "epoch": 50,
+  "val_loss": 1.740471486798636,
+  "val_acc": 0.7977414260600101,
+  "best_model_path": "output/models/lr_0.0001_bs_32/best_model.pth",
+  "total_parameters": 36955619,
+  "trainable_parameters": 28412323,
+  "inference_time_seconds": 42.28836900508031,
+  "inference_time_per_sample_ms": 1.2600449630547454
+}
