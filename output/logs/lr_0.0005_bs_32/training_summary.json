@@ -1,0 +1,7 @@
+{
+  "total_parameters": 36955619,
+  "trainable_parameters": 28412323,
+  "total_training_time_seconds": 19136.987816556008,
+  "average_epoch_time_seconds": 380.7424243454565,
+  "completed_epochs": 50
+}
