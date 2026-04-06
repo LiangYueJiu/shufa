@@ -1,0 +1,5 @@
+Total Parameters: 36955619
+Trainable Parameters: 28412323
+Total Training Time (s): 20697.797055
+Average Epoch Time (s): 411.778399
+Completed Epochs: 50

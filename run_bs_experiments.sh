@@ -5,7 +5,7 @@ DATA_DIR="../chinese_fonts"
 EPOCHS=50
 LR=0.0005
 
-BATCH_SIZES=(16 32 64)
+BATCH_SIZES=(64)
 
 for BS in "${BATCH_SIZES[@]}"; do
   RUN_NAME="lr_${LR}_bs_${BS}"

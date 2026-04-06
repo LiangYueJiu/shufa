@@ -10,566 +10,2526 @@ Trainable parameters: 28412323
 
 Epoch 1/50
 ----------
-  Batch 50/2098, Loss: 8.7151
-  Batch 100/2098, Loss: 8.5320
-  Batch 150/2098, Loss: 8.5127
-  Batch 200/2098, Loss: 8.2077
-  Batch 250/2098, Loss: 8.1727
-  Batch 300/2098, Loss: 8.3145
-  Batch 350/2098, Loss: 8.4875
-  Batch 400/2098, Loss: 8.1015
-  Batch 450/2098, Loss: 8.0578
-  Batch 500/2098, Loss: 8.2694
-  Batch 550/2098, Loss: 7.6836
-  Batch 600/2098, Loss: 7.7572
-  Batch 650/2098, Loss: 7.7574
-  Batch 700/2098, Loss: 7.9143
-  Batch 750/2098, Loss: 7.8174
-  Batch 800/2098, Loss: 7.4722
-  Batch 850/2098, Loss: 7.3938
-  Batch 900/2098, Loss: 7.7490
-  Batch 950/2098, Loss: 7.2608
-  Batch 1000/2098, Loss: 8.1568
-  Batch 1050/2098, Loss: 7.2920
-  Batch 1100/2098, Loss: 7.5070
-  Batch 1150/2098, Loss: 7.3440
-  Batch 1200/2098, Loss: 7.2112
-  Batch 1250/2098, Loss: 7.3204
-  Batch 1300/2098, Loss: 7.1062
-  Batch 1350/2098, Loss: 7.4694
-  Batch 1400/2098, Loss: 6.9378
-  Batch 1450/2098, Loss: 6.8163
-  Batch 1500/2098, Loss: 6.9067
-  Batch 1550/2098, Loss: 6.4275
-  Batch 1600/2098, Loss: 7.3925
-  Batch 1650/2098, Loss: 6.5198
-  Batch 1700/2098, Loss: 6.7132
-  Batch 1750/2098, Loss: 6.6582
-  Batch 1800/2098, Loss: 6.2695
-  Batch 1850/2098, Loss: 6.5663
-  Batch 1900/2098, Loss: 6.3505
-  Batch 1950/2098, Loss: 6.2773
-  Batch 2000/2098, Loss: 5.9078
-  Batch 2050/2098, Loss: 6.5597
-Train Loss: 7.3907 Acc: 0.0310
-Val Loss: 5.8434 Acc: 0.1299
-Validation inference time: 40.4767s total, 1.2061 ms/sample
+  Batch 50/2098, Loss: 8.5965
+  Batch 100/2098, Loss: 8.4481
+  Batch 150/2098, Loss: 8.3849
+  Batch 200/2098, Loss: 8.1639
+  Batch 250/2098, Loss: 8.4004
+  Batch 300/2098, Loss: 8.1723
+  Batch 350/2098, Loss: 8.1182
+  Batch 400/2098, Loss: 8.2088
+  Batch 450/2098, Loss: 7.7559
+  Batch 500/2098, Loss: 8.0455
+  Batch 550/2098, Loss: 7.8005
+  Batch 600/2098, Loss: 7.7567
+  Batch 650/2098, Loss: 7.5615
+  Batch 700/2098, Loss: 7.5478
+  Batch 750/2098, Loss: 7.6478
+  Batch 800/2098, Loss: 7.7948
+  Batch 850/2098, Loss: 7.5305
+  Batch 900/2098, Loss: 7.2979
+  Batch 950/2098, Loss: 7.5296
+  Batch 1000/2098, Loss: 7.7520
+  Batch 1050/2098, Loss: 7.6069
+  Batch 1100/2098, Loss: 7.0518
+  Batch 1150/2098, Loss: 7.2696
+  Batch 1200/2098, Loss: 7.1560
+  Batch 1250/2098, Loss: 7.5653
+  Batch 1300/2098, Loss: 7.1952
+  Batch 1350/2098, Loss: 6.4757
+  Batch 1400/2098, Loss: 7.0499
+  Batch 1450/2098, Loss: 6.5101
+  Batch 1500/2098, Loss: 6.6206
+  Batch 1550/2098, Loss: 6.8984
+  Batch 1600/2098, Loss: 7.2388
+  Batch 1650/2098, Loss: 6.4413
+  Batch 1700/2098, Loss: 6.5281
+  Batch 1750/2098, Loss: 7.3021
+  Batch 1800/2098, Loss: 6.5519
+  Batch 1850/2098, Loss: 6.2681
+  Batch 1900/2098, Loss: 6.0599
+  Batch 1950/2098, Loss: 6.5443
+  Batch 2000/2098, Loss: 6.5574
+  Batch 2050/2098, Loss: 6.2782
+Train Loss: 7.3643 Acc: 0.0308
+Val Loss: 5.7685 Acc: 0.1378
+Validation inference time: 40.4083s total, 1.2040 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.81s
+Epoch time: 389.45s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 2/50
 ----------
-  Batch 50/2098, Loss: 6.3387
-  Batch 100/2098, Loss: 5.3428
-  Batch 150/2098, Loss: 5.3599
-  Batch 200/2098, Loss: 6.2386
-  Batch 250/2098, Loss: 5.8683
-  Batch 300/2098, Loss: 6.0548
-  Batch 350/2098, Loss: 6.0955
-  Batch 400/2098, Loss: 5.1051
-  Batch 450/2098, Loss: 5.2006
-  Batch 500/2098, Loss: 5.1337
-  Batch 550/2098, Loss: 4.5938
-  Batch 600/2098, Loss: 4.9605
-  Batch 650/2098, Loss: 4.7612
-  Batch 700/2098, Loss: 5.4570
-  Batch 750/2098, Loss: 5.2855
-  Batch 800/2098, Loss: 5.5232
-  Batch 850/2098, Loss: 5.1685
-  Batch 900/2098, Loss: 4.3418
-  Batch 950/2098, Loss: 4.8389
-  Batch 1000/2098, Loss: 5.3095
-  Batch 1050/2098, Loss: 5.3456
-  Batch 1100/2098, Loss: 4.7449
-  Batch 1150/2098, Loss: 4.4112
-  Batch 1200/2098, Loss: 4.7412
-  Batch 1250/2098, Loss: 4.9154
-  Batch 1300/2098, Loss: 4.7504
-  Batch 1350/2098, Loss: 4.5593
-  Batch 1400/2098, Loss: 4.1051
-  Batch 1450/2098, Loss: 4.3613
-  Batch 1500/2098, Loss: 4.5438
-  Batch 1550/2098, Loss: 4.3305
-  Batch 1600/2098, Loss: 4.1517
-  Batch 1650/2098, Loss: 3.8062
-  Batch 1700/2098, Loss: 4.3070
-  Batch 1750/2098, Loss: 4.7148
-  Batch 1800/2098, Loss: 4.2789
-  Batch 1850/2098, Loss: 3.7152
-  Batch 1900/2098, Loss: 3.9177
-  Batch 1950/2098, Loss: 4.5547
-  Batch 2000/2098, Loss: 4.1212
-  Batch 2050/2098, Loss: 3.2528
-Train Loss: 4.9199 Acc: 0.2061
-Val Loss: 3.5415 Acc: 0.4076
-Validation inference time: 40.4402s total, 1.2050 ms/sample
+  Batch 50/2098, Loss: 6.1281
+  Batch 100/2098, Loss: 5.1903
+  Batch 150/2098, Loss: 5.6690
+  Batch 200/2098, Loss: 6.0049
+  Batch 250/2098, Loss: 5.6901
+  Batch 300/2098, Loss: 5.8841
+  Batch 350/2098, Loss: 6.2642
+  Batch 400/2098, Loss: 5.4840
+  Batch 450/2098, Loss: 5.2316
+  Batch 500/2098, Loss: 5.8622
+  Batch 550/2098, Loss: 5.2670
+  Batch 600/2098, Loss: 4.7902
+  Batch 650/2098, Loss: 5.6460
+  Batch 700/2098, Loss: 4.5922
+  Batch 750/2098, Loss: 5.7335
+  Batch 800/2098, Loss: 4.8526
+  Batch 850/2098, Loss: 4.5628
+  Batch 900/2098, Loss: 4.9844
+  Batch 950/2098, Loss: 4.2512
+  Batch 1000/2098, Loss: 4.5613
+  Batch 1050/2098, Loss: 4.9378
+  Batch 1100/2098, Loss: 5.0152
+  Batch 1150/2098, Loss: 5.1278
+  Batch 1200/2098, Loss: 5.7689
+  Batch 1250/2098, Loss: 4.4423
+  Batch 1300/2098, Loss: 4.4602
+  Batch 1350/2098, Loss: 4.3851
+  Batch 1400/2098, Loss: 4.5681
+  Batch 1450/2098, Loss: 4.9906
+  Batch 1500/2098, Loss: 5.0360
+  Batch 1550/2098, Loss: 4.3710
+  Batch 1600/2098, Loss: 4.5953
+  Batch 1650/2098, Loss: 3.8559
+  Batch 1700/2098, Loss: 3.9670
+  Batch 1750/2098, Loss: 3.9460
+  Batch 1800/2098, Loss: 3.8580
+  Batch 1850/2098, Loss: 4.6012
+  Batch 1900/2098, Loss: 3.9170
+  Batch 1950/2098, Loss: 4.6669
+  Batch 2000/2098, Loss: 4.1950
+  Batch 2050/2098, Loss: 4.3106
+Train Loss: 4.9345 Acc: 0.2013
+Val Loss: 3.5916 Acc: 0.4000
+Validation inference time: 40.3560s total, 1.2025 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.10s
+Epoch time: 377.78s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 3/50
 ----------
-  Batch 50/2098, Loss: 3.8871
-  Batch 100/2098, Loss: 2.8001
-  Batch 150/2098, Loss: 3.9780
-  Batch 200/2098, Loss: 4.1514
-  Batch 250/2098, Loss: 3.7279
-  Batch 300/2098, Loss: 3.9238
-  Batch 350/2098, Loss: 4.1361
-  Batch 400/2098, Loss: 3.6134
-  Batch 450/2098, Loss: 3.5947
-  Batch 500/2098, Loss: 3.0484
-  Batch 550/2098, Loss: 3.2607
-  Batch 600/2098, Loss: 3.0962
-  Batch 650/2098, Loss: 3.1795
-  Batch 700/2098, Loss: 3.5285
-  Batch 750/2098, Loss: 3.2556
-  Batch 800/2098, Loss: 3.5227
-  Batch 850/2098, Loss: 3.4836
-  Batch 900/2098, Loss: 3.4222
-  Batch 950/2098, Loss: 3.6497
-  Batch 1000/2098, Loss: 2.4403
-  Batch 1050/2098, Loss: 3.1566
-  Batch 1100/2098, Loss: 3.4876
-  Batch 1150/2098, Loss: 3.0925
-  Batch 1200/2098, Loss: 2.4124
-  Batch 1250/2098, Loss: 3.2832
-  Batch 1300/2098, Loss: 3.2417
-  Batch 1350/2098, Loss: 2.8939
-  Batch 1400/2098, Loss: 2.7591
-  Batch 1450/2098, Loss: 2.8254
-  Batch 1500/2098, Loss: 2.8714
-  Batch 1550/2098, Loss: 2.7641
-  Batch 1600/2098, Loss: 3.0220
-  Batch 1650/2098, Loss: 2.5018
-  Batch 1700/2098, Loss: 3.0676
-  Batch 1750/2098, Loss: 2.7881
-  Batch 1800/2098, Loss: 3.2390
-  Batch 1850/2098, Loss: 3.4310
-  Batch 1900/2098, Loss: 3.0205
-  Batch 1950/2098, Loss: 2.4906
-  Batch 2000/2098, Loss: 3.1078
-  Batch 2050/2098, Loss: 2.5729
-Train Loss: 3.2083 Acc: 0.3994
-Val Loss: 2.4957 Acc: 0.5621
-Validation inference time: 40.4393s total, 1.2049 ms/sample
+  Batch 50/2098, Loss: 3.4997
+  Batch 100/2098, Loss: 3.8001
+  Batch 150/2098, Loss: 3.4617
+  Batch 200/2098, Loss: 3.8303
+  Batch 250/2098, Loss: 3.6784
+  Batch 300/2098, Loss: 3.2721
+  Batch 350/2098, Loss: 3.7624
+  Batch 400/2098, Loss: 3.8401
+  Batch 450/2098, Loss: 3.4262
+  Batch 500/2098, Loss: 3.5584
+  Batch 550/2098, Loss: 3.7125
+  Batch 600/2098, Loss: 2.8659
+  Batch 650/2098, Loss: 3.1063
+  Batch 700/2098, Loss: 3.6607
+  Batch 750/2098, Loss: 3.5880
+  Batch 800/2098, Loss: 3.2038
+  Batch 850/2098, Loss: 2.7880
+  Batch 900/2098, Loss: 3.3650
+  Batch 950/2098, Loss: 3.6330
+  Batch 1000/2098, Loss: 3.2591
+  Batch 1050/2098, Loss: 3.0037
+  Batch 1100/2098, Loss: 2.8821
+  Batch 1150/2098, Loss: 2.9306
+  Batch 1200/2098, Loss: 2.4583
+  Batch 1250/2098, Loss: 2.8454
+  Batch 1300/2098, Loss: 2.8531
+  Batch 1350/2098, Loss: 2.9447
+  Batch 1400/2098, Loss: 2.8618
+  Batch 1450/2098, Loss: 3.0462
+  Batch 1500/2098, Loss: 2.7378
+  Batch 1550/2098, Loss: 3.4314
+  Batch 1600/2098, Loss: 3.3363
+  Batch 1650/2098, Loss: 2.6004
+  Batch 1700/2098, Loss: 3.2916
+  Batch 1750/2098, Loss: 2.8677
+  Batch 1800/2098, Loss: 2.8863
+  Batch 1850/2098, Loss: 2.6027
+  Batch 1900/2098, Loss: 2.3203
+  Batch 1950/2098, Loss: 2.9055
+  Batch 2000/2098, Loss: 3.1176
+  Batch 2050/2098, Loss: 3.0399
+Train Loss: 3.2478 Acc: 0.3931
+Val Loss: 2.5190 Acc: 0.5504
+Validation inference time: 40.3775s total, 1.2031 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 375.95s
+Epoch time: 377.31s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 4/50
 ----------
-  Batch 50/2098, Loss: 2.4599
-  Batch 100/2098, Loss: 2.6559
-  Batch 150/2098, Loss: 2.6517
-  Batch 200/2098, Loss: 3.0497
-  Batch 250/2098, Loss: 1.9140
-  Batch 300/2098, Loss: 1.9167
-  Batch 350/2098, Loss: 3.1015
-  Batch 400/2098, Loss: 2.5014
-  Batch 450/2098, Loss: 2.7752
-  Batch 500/2098, Loss: 2.3318
-  Batch 550/2098, Loss: 3.2461
-  Batch 600/2098, Loss: 2.1691
-  Batch 650/2098, Loss: 2.0180
-  Batch 700/2098, Loss: 2.5683
-  Batch 750/2098, Loss: 2.7727
-  Batch 800/2098, Loss: 1.8839
-  Batch 850/2098, Loss: 2.2673
-  Batch 900/2098, Loss: 2.5909
-  Batch 950/2098, Loss: 2.3249
-  Batch 1000/2098, Loss: 2.2034
-  Batch 1050/2098, Loss: 2.8566
-  Batch 1100/2098, Loss: 2.2871
-  Batch 1150/2098, Loss: 2.0462
-  Batch 1200/2098, Loss: 2.2184
-  Batch 1250/2098, Loss: 2.4492
-  Batch 1300/2098, Loss: 2.4896
-  Batch 1350/2098, Loss: 2.4611
-  Batch 1400/2098, Loss: 2.5292
-  Batch 1450/2098, Loss: 2.5607
-  Batch 1500/2098, Loss: 1.6454
-  Batch 1550/2098, Loss: 2.4527
-  Batch 1600/2098, Loss: 2.1450
-  Batch 1650/2098, Loss: 2.2369
-  Batch 1700/2098, Loss: 2.5311
-  Batch 1750/2098, Loss: 2.8627
-  Batch 1800/2098, Loss: 1.8847
-  Batch 1850/2098, Loss: 2.4090
-  Batch 1900/2098, Loss: 1.8944
-  Batch 1950/2098, Loss: 1.9466
-  Batch 2000/2098, Loss: 2.0009
-  Batch 2050/2098, Loss: 2.2431
-Train Loss: 2.3100 Acc: 0.5284
-Val Loss: 2.0297 Acc: 0.6376
-Validation inference time: 40.4407s total, 1.2050 ms/sample
+  Batch 50/2098, Loss: 2.3143
+  Batch 100/2098, Loss: 2.9617
+  Batch 150/2098, Loss: 3.4635
+  Batch 200/2098, Loss: 2.8255
+  Batch 250/2098, Loss: 2.2185
+  Batch 300/2098, Loss: 2.0913
+  Batch 350/2098, Loss: 2.2404
+  Batch 400/2098, Loss: 2.8610
+  Batch 450/2098, Loss: 2.4818
+  Batch 500/2098, Loss: 2.3032
+  Batch 550/2098, Loss: 2.7602
+  Batch 600/2098, Loss: 2.5960
+  Batch 650/2098, Loss: 2.0313
+  Batch 700/2098, Loss: 2.7254
+  Batch 750/2098, Loss: 2.4722
+  Batch 800/2098, Loss: 1.9424
+  Batch 850/2098, Loss: 2.3564
+  Batch 900/2098, Loss: 2.3009
+  Batch 950/2098, Loss: 2.1888
+  Batch 1000/2098, Loss: 2.4264
+  Batch 1050/2098, Loss: 2.2475
+  Batch 1100/2098, Loss: 2.0670
+  Batch 1150/2098, Loss: 2.2860
+  Batch 1200/2098, Loss: 2.5401
+  Batch 1250/2098, Loss: 2.7379
+  Batch 1300/2098, Loss: 2.5693
+  Batch 1350/2098, Loss: 2.4056
+  Batch 1400/2098, Loss: 2.0487
+  Batch 1450/2098, Loss: 2.2230
+  Batch 1500/2098, Loss: 2.6975
+  Batch 1550/2098, Loss: 1.9318
+  Batch 1600/2098, Loss: 2.1001
+  Batch 1650/2098, Loss: 2.2925
+  Batch 1700/2098, Loss: 2.1898
+  Batch 1750/2098, Loss: 1.9388
+  Batch 1800/2098, Loss: 2.2056
+  Batch 1850/2098, Loss: 2.6678
+  Batch 1900/2098, Loss: 2.7795
+  Batch 1950/2098, Loss: 2.4629
+  Batch 2000/2098, Loss: 2.3020
+  Batch 2050/2098, Loss: 1.6376
+Train Loss: 2.3325 Acc: 0.5239
+Val Loss: 2.0741 Acc: 0.6301
+Validation inference time: 40.9355s total, 1.2197 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.13s
+Epoch time: 380.56s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 5/50
 ----------
-  Batch 50/2098, Loss: 1.8996
-  Batch 100/2098, Loss: 2.1405
-  Batch 150/2098, Loss: 1.7059
-  Batch 200/2098, Loss: 1.5986
-  Batch 250/2098, Loss: 2.3371
-  Batch 300/2098, Loss: 1.6877
-  Batch 350/2098, Loss: 1.7872
-  Batch 400/2098, Loss: 1.7658
-  Batch 450/2098, Loss: 2.0779
-  Batch 500/2098, Loss: 1.4564
-  Batch 550/2098, Loss: 2.2957
-  Batch 600/2098, Loss: 1.5289
-  Batch 650/2098, Loss: 1.7236
-  Batch 700/2098, Loss: 1.8285
-  Batch 750/2098, Loss: 1.9229
-  Batch 800/2098, Loss: 1.9925
-  Batch 850/2098, Loss: 1.6729
-  Batch 900/2098, Loss: 1.6900
-  Batch 950/2098, Loss: 1.7988
-  Batch 1000/2098, Loss: 1.3909
-  Batch 1050/2098, Loss: 1.5331
-  Batch 1100/2098, Loss: 1.7985
-  Batch 1150/2098, Loss: 1.5684
-  Batch 1200/2098, Loss: 2.0951
-  Batch 1250/2098, Loss: 1.7461
-  Batch 1300/2098, Loss: 2.2709
-  Batch 1350/2098, Loss: 1.6366
-  Batch 1400/2098, Loss: 1.3473
-  Batch 1450/2098, Loss: 2.3897
-  Batch 1500/2098, Loss: 1.3105
-  Batch 1550/2098, Loss: 2.1154
-  Batch 1600/2098, Loss: 1.5416
-  Batch 1650/2098, Loss: 1.9349
-  Batch 1700/2098, Loss: 1.9694
-  Batch 1750/2098, Loss: 1.7763
-  Batch 1800/2098, Loss: 2.1052
-  Batch 1850/2098, Loss: 1.3365
-  Batch 1900/2098, Loss: 1.5734
-  Batch 1950/2098, Loss: 1.7931
-  Batch 2000/2098, Loss: 1.4884
-  Batch 2050/2098, Loss: 2.0288
-Train Loss: 1.7872 Acc: 0.6130
-Val Loss: 1.7802 Acc: 0.6818
-Validation inference time: 40.4098s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 1.7859
+  Batch 100/2098, Loss: 1.4092
+  Batch 150/2098, Loss: 2.2228
+  Batch 200/2098, Loss: 1.6763
+  Batch 250/2098, Loss: 2.1690
+  Batch 300/2098, Loss: 1.7860
+  Batch 350/2098, Loss: 1.7294
+  Batch 400/2098, Loss: 2.2279
+  Batch 450/2098, Loss: 1.6026
+  Batch 500/2098, Loss: 1.7945
+  Batch 550/2098, Loss: 1.5523
+  Batch 600/2098, Loss: 1.8251
+  Batch 650/2098, Loss: 1.6443
+  Batch 700/2098, Loss: 1.3592
+  Batch 750/2098, Loss: 1.6827
+  Batch 800/2098, Loss: 1.4236
+  Batch 850/2098, Loss: 2.0619
+  Batch 900/2098, Loss: 1.9114
+  Batch 950/2098, Loss: 1.6803
+  Batch 1000/2098, Loss: 1.7544
+  Batch 1050/2098, Loss: 2.2478
+  Batch 1100/2098, Loss: 1.7232
+  Batch 1150/2098, Loss: 1.4424
+  Batch 1200/2098, Loss: 1.9967
+  Batch 1250/2098, Loss: 1.7901
+  Batch 1300/2098, Loss: 1.9277
+  Batch 1350/2098, Loss: 2.0442
+  Batch 1400/2098, Loss: 1.3281
+  Batch 1450/2098, Loss: 1.6325
+  Batch 1500/2098, Loss: 1.3620
+  Batch 1550/2098, Loss: 2.2297
+  Batch 1600/2098, Loss: 2.0120
+  Batch 1650/2098, Loss: 1.8101
+  Batch 1700/2098, Loss: 2.2029
+  Batch 1750/2098, Loss: 1.6954
+  Batch 1800/2098, Loss: 1.4718
+  Batch 1850/2098, Loss: 2.0612
+  Batch 1900/2098, Loss: 1.7103
+  Batch 1950/2098, Loss: 1.7049
+  Batch 2000/2098, Loss: 1.1580
+  Batch 2050/2098, Loss: 1.4733
+Train Loss: 1.8018 Acc: 0.6099
+Val Loss: 1.7914 Acc: 0.6741
+Validation inference time: 40.6162s total, 1.2102 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.60s
+Epoch time: 395.73s
 Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_5.pth
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 6/50
 ----------
-  Batch 50/2098, Loss: 1.6823
-  Batch 100/2098, Loss: 1.4761
-  Batch 150/2098, Loss: 1.4626
-  Batch 200/2098, Loss: 1.6449
-  Batch 250/2098, Loss: 1.8610
-  Batch 300/2098, Loss: 1.0811
-  Batch 350/2098, Loss: 1.2208
-  Batch 400/2098, Loss: 1.4817
-  Batch 450/2098, Loss: 1.5911
-  Batch 500/2098, Loss: 1.4107
-  Batch 550/2098, Loss: 1.5054
-  Batch 600/2098, Loss: 1.6429
-  Batch 650/2098, Loss: 1.5976
-  Batch 700/2098, Loss: 1.5602
-  Batch 750/2098, Loss: 1.3855
-  Batch 800/2098, Loss: 1.3274
-  Batch 850/2098, Loss: 1.5453
-  Batch 900/2098, Loss: 1.8044
-  Batch 950/2098, Loss: 1.3261
-  Batch 1000/2098, Loss: 0.8180
-  Batch 1050/2098, Loss: 1.6223
-  Batch 1100/2098, Loss: 1.7109
-  Batch 1150/2098, Loss: 0.9502
-  Batch 1200/2098, Loss: 1.2796
-  Batch 1250/2098, Loss: 1.4128
-  Batch 1300/2098, Loss: 1.6039
-  Batch 1350/2098, Loss: 1.0020
-  Batch 1400/2098, Loss: 1.8266
-  Batch 1450/2098, Loss: 1.2675
-  Batch 1500/2098, Loss: 1.6322
-  Batch 1550/2098, Loss: 1.5355
-  Batch 1600/2098, Loss: 1.3653
-  Batch 1650/2098, Loss: 1.5527
-  Batch 1700/2098, Loss: 1.1918
-  Batch 1750/2098, Loss: 1.6486
-  Batch 1800/2098, Loss: 1.4593
-  Batch 1850/2098, Loss: 1.0666
-  Batch 1900/2098, Loss: 1.7924
-  Batch 1950/2098, Loss: 0.9110
-  Batch 2000/2098, Loss: 1.1871
-  Batch 2050/2098, Loss: 1.2707
-Train Loss: 1.4429 Acc: 0.6721
-Val Loss: 1.6614 Acc: 0.7098
-Validation inference time: 40.4093s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 1.1794
+  Batch 100/2098, Loss: 1.8870
+  Batch 150/2098, Loss: 1.4213
+  Batch 200/2098, Loss: 1.8023
+  Batch 250/2098, Loss: 1.0533
+  Batch 300/2098, Loss: 1.2643
+  Batch 350/2098, Loss: 1.6417
+  Batch 400/2098, Loss: 1.4409
+  Batch 450/2098, Loss: 0.9000
+  Batch 500/2098, Loss: 1.5057
+  Batch 550/2098, Loss: 1.3345
+  Batch 600/2098, Loss: 1.2957
+  Batch 650/2098, Loss: 1.7906
+  Batch 700/2098, Loss: 1.5673
+  Batch 750/2098, Loss: 1.2258
+  Batch 800/2098, Loss: 1.8820
+  Batch 850/2098, Loss: 1.1437
+  Batch 900/2098, Loss: 1.9094
+  Batch 950/2098, Loss: 1.7925
+  Batch 1000/2098, Loss: 1.5049
+  Batch 1050/2098, Loss: 1.6780
+  Batch 1100/2098, Loss: 1.3310
+  Batch 1150/2098, Loss: 1.1646
+  Batch 1200/2098, Loss: 1.3852
+  Batch 1250/2098, Loss: 1.3839
+  Batch 1300/2098, Loss: 1.7534
+  Batch 1350/2098, Loss: 1.3011
+  Batch 1400/2098, Loss: 1.8626
+  Batch 1450/2098, Loss: 1.4055
+  Batch 1500/2098, Loss: 1.4589
+  Batch 1550/2098, Loss: 1.2973
+  Batch 1600/2098, Loss: 1.3044
+  Batch 1650/2098, Loss: 1.7175
+  Batch 1700/2098, Loss: 1.6033
+  Batch 1750/2098, Loss: 1.0751
+  Batch 1800/2098, Loss: 1.2798
+  Batch 1850/2098, Loss: 1.8189
+  Batch 1900/2098, Loss: 1.6036
+  Batch 1950/2098, Loss: 1.2945
+  Batch 2000/2098, Loss: 1.5633
+  Batch 2050/2098, Loss: 1.0272
+Train Loss: 1.4552 Acc: 0.6689
+Val Loss: 1.6653 Acc: 0.7050
+Validation inference time: 40.9487s total, 1.2201 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 375.91s
+Epoch time: 397.59s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 7/50
 ----------
-  Batch 50/2098, Loss: 0.9199
-  Batch 100/2098, Loss: 1.1126
-  Batch 150/2098, Loss: 1.2990
-  Batch 200/2098, Loss: 1.2992
-  Batch 250/2098, Loss: 1.3628
-  Batch 300/2098, Loss: 1.2212
-  Batch 350/2098, Loss: 1.1173
-  Batch 400/2098, Loss: 1.0592
-  Batch 450/2098, Loss: 1.7656
-  Batch 500/2098, Loss: 1.2411
-  Batch 550/2098, Loss: 1.4907
-  Batch 600/2098, Loss: 1.1414
-  Batch 650/2098, Loss: 1.5114
-  Batch 700/2098, Loss: 1.4409
-  Batch 750/2098, Loss: 0.9375
-  Batch 800/2098, Loss: 1.4322
-  Batch 850/2098, Loss: 1.0323
-  Batch 900/2098, Loss: 1.5418
-  Batch 950/2098, Loss: 1.2497
-  Batch 1000/2098, Loss: 1.1737
-  Batch 1050/2098, Loss: 0.8930
-  Batch 1100/2098, Loss: 1.4351
-  Batch 1150/2098, Loss: 1.6517
-  Batch 1200/2098, Loss: 1.2624
-  Batch 1250/2098, Loss: 1.1758
-  Batch 1300/2098, Loss: 1.7478
-  Batch 1350/2098, Loss: 1.8156
-  Batch 1400/2098, Loss: 1.2565
-  Batch 1450/2098, Loss: 1.0435
-  Batch 1500/2098, Loss: 1.2794
-  Batch 1550/2098, Loss: 1.1776
-  Batch 1600/2098, Loss: 1.1574
-  Batch 1650/2098, Loss: 1.0463
-  Batch 1700/2098, Loss: 1.1457
-  Batch 1750/2098, Loss: 1.5673
-  Batch 1800/2098, Loss: 1.2870
-  Batch 1850/2098, Loss: 1.0791
-  Batch 1900/2098, Loss: 1.1773
-  Batch 1950/2098, Loss: 1.7991
-  Batch 2000/2098, Loss: 1.2403
-  Batch 2050/2098, Loss: 0.9140
-Train Loss: 1.2034 Acc: 0.7154
-Val Loss: 1.5798 Acc: 0.7270
-Validation inference time: 40.4120s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 0.8926
+  Batch 100/2098, Loss: 1.5596
+  Batch 150/2098, Loss: 1.1624
+  Batch 200/2098, Loss: 1.1087
+  Batch 250/2098, Loss: 1.1689
+  Batch 300/2098, Loss: 1.5570
+  Batch 350/2098, Loss: 1.2452
+  Batch 400/2098, Loss: 1.1779
+  Batch 450/2098, Loss: 1.0272
+  Batch 500/2098, Loss: 1.0370
+  Batch 550/2098, Loss: 0.8016
+  Batch 600/2098, Loss: 1.6165
+  Batch 650/2098, Loss: 1.2628
+  Batch 700/2098, Loss: 1.0336
+  Batch 750/2098, Loss: 0.9808
+  Batch 800/2098, Loss: 0.9326
+  Batch 850/2098, Loss: 1.5230
+  Batch 900/2098, Loss: 1.2498
+  Batch 950/2098, Loss: 1.1037
+  Batch 1000/2098, Loss: 1.7366
+  Batch 1050/2098, Loss: 1.1116
+  Batch 1100/2098, Loss: 1.1710
+  Batch 1150/2098, Loss: 1.0272
+  Batch 1200/2098, Loss: 1.5009
+  Batch 1250/2098, Loss: 1.3020
+  Batch 1300/2098, Loss: 1.2607
+  Batch 1350/2098, Loss: 1.3349
+  Batch 1400/2098, Loss: 1.3756
+  Batch 1450/2098, Loss: 1.2415
+  Batch 1500/2098, Loss: 1.5237
+  Batch 1550/2098, Loss: 0.7272
+  Batch 1600/2098, Loss: 1.1359
+  Batch 1650/2098, Loss: 1.2927
+  Batch 1700/2098, Loss: 0.9628
+  Batch 1750/2098, Loss: 1.1826
+  Batch 1800/2098, Loss: 1.1304
+  Batch 1850/2098, Loss: 0.9113
+  Batch 1900/2098, Loss: 1.6060
+  Batch 1950/2098, Loss: 1.1183
+  Batch 2000/2098, Loss: 1.2832
+  Batch 2050/2098, Loss: 1.1335
+Train Loss: 1.2148 Acc: 0.7155
+Val Loss: 1.5821 Acc: 0.7275
+Validation inference time: 48.8282s total, 1.4549 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.43s
+Epoch time: 446.03s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 8/50
 ----------
-  Batch 50/2098, Loss: 1.2782
-  Batch 100/2098, Loss: 0.9693
-  Batch 150/2098, Loss: 0.8386
-  Batch 200/2098, Loss: 0.9208
-  Batch 250/2098, Loss: 1.2323
-  Batch 300/2098, Loss: 1.0785
-  Batch 350/2098, Loss: 0.9341
-  Batch 400/2098, Loss: 1.0782
-  Batch 450/2098, Loss: 1.2006
-  Batch 500/2098, Loss: 1.0145
-  Batch 550/2098, Loss: 0.9295
-  Batch 600/2098, Loss: 0.7179
-  Batch 650/2098, Loss: 1.0517
-  Batch 700/2098, Loss: 0.7766
-  Batch 750/2098, Loss: 1.0546
-  Batch 800/2098, Loss: 1.1937
-  Batch 850/2098, Loss: 0.8395
-  Batch 900/2098, Loss: 0.6159
-  Batch 950/2098, Loss: 1.1017
-  Batch 1000/2098, Loss: 0.9906
-  Batch 1050/2098, Loss: 1.2471
-  Batch 1100/2098, Loss: 0.9718
-  Batch 1150/2098, Loss: 1.2090
-  Batch 1200/2098, Loss: 0.7593
-  Batch 1250/2098, Loss: 1.2695
-  Batch 1300/2098, Loss: 1.0821
-  Batch 1350/2098, Loss: 0.9311
-  Batch 1400/2098, Loss: 1.0087
-  Batch 1450/2098, Loss: 1.0008
-  Batch 1500/2098, Loss: 0.9932
-  Batch 1550/2098, Loss: 1.2050
-  Batch 1600/2098, Loss: 1.1237
-  Batch 1650/2098, Loss: 0.5969
-  Batch 1700/2098, Loss: 1.1936
-  Batch 1750/2098, Loss: 0.6614
-  Batch 1800/2098, Loss: 0.7499
-  Batch 1850/2098, Loss: 1.0074
-  Batch 1900/2098, Loss: 1.4271
-  Batch 1950/2098, Loss: 1.5189
-  Batch 2000/2098, Loss: 1.1175
-  Batch 2050/2098, Loss: 0.6532
-Train Loss: 1.0257 Acc: 0.7523
-Val Loss: 1.5102 Acc: 0.7412
-Validation inference time: 40.4121s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 0.8359
+  Batch 100/2098, Loss: 0.9497
+  Batch 150/2098, Loss: 1.4633
+  Batch 200/2098, Loss: 0.8709
+  Batch 250/2098, Loss: 1.1785
+  Batch 300/2098, Loss: 1.3226
+  Batch 350/2098, Loss: 1.4583
+  Batch 400/2098, Loss: 0.5023
+  Batch 450/2098, Loss: 0.7289
+  Batch 500/2098, Loss: 1.2401
+  Batch 550/2098, Loss: 0.7391
+  Batch 600/2098, Loss: 1.2487
+  Batch 650/2098, Loss: 0.8695
+  Batch 700/2098, Loss: 1.0154
+  Batch 750/2098, Loss: 1.5425
+  Batch 800/2098, Loss: 0.9189
+  Batch 850/2098, Loss: 1.0470
+  Batch 900/2098, Loss: 0.9900
+  Batch 950/2098, Loss: 1.0419
+  Batch 1000/2098, Loss: 0.8970
+  Batch 1050/2098, Loss: 0.8226
+  Batch 1100/2098, Loss: 1.1349
+  Batch 1150/2098, Loss: 1.0449
+  Batch 1200/2098, Loss: 0.8546
+  Batch 1250/2098, Loss: 1.0465
+  Batch 1300/2098, Loss: 0.9024
+  Batch 1350/2098, Loss: 1.3617
+  Batch 1400/2098, Loss: 1.0400
+  Batch 1450/2098, Loss: 1.0763
+  Batch 1500/2098, Loss: 1.2663
+  Batch 1550/2098, Loss: 0.9072
+  Batch 1600/2098, Loss: 1.3786
+  Batch 1650/2098, Loss: 0.7879
+  Batch 1700/2098, Loss: 1.3492
+  Batch 1750/2098, Loss: 1.3344
+  Batch 1800/2098, Loss: 1.2988
+  Batch 1850/2098, Loss: 1.1548
+  Batch 1900/2098, Loss: 1.2865
+  Batch 1950/2098, Loss: 0.8891
+  Batch 2000/2098, Loss: 0.7831
+  Batch 2050/2098, Loss: 0.9603
+Train Loss: 1.0336 Acc: 0.7497
+Val Loss: 1.5808 Acc: 0.7300
+Validation inference time: 48.8067s total, 1.4543 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.43s
+Epoch time: 452.25s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 9/50
 ----------
-  Batch 50/2098, Loss: 0.6765
-  Batch 100/2098, Loss: 0.8554
-  Batch 150/2098, Loss: 0.7575
-  Batch 200/2098, Loss: 1.0210
-  Batch 250/2098, Loss: 0.7528
-  Batch 300/2098, Loss: 0.8166
-  Batch 350/2098, Loss: 0.7307
-  Batch 400/2098, Loss: 1.0483
-  Batch 450/2098, Loss: 0.7771
-  Batch 500/2098, Loss: 0.7127
-  Batch 550/2098, Loss: 0.4488
-  Batch 600/2098, Loss: 0.8046
-  Batch 650/2098, Loss: 0.7951
-  Batch 700/2098, Loss: 0.9100
-  Batch 750/2098, Loss: 1.0210
-  Batch 800/2098, Loss: 0.8412
-  Batch 850/2098, Loss: 1.2019
-  Batch 900/2098, Loss: 1.1564
-  Batch 950/2098, Loss: 0.8444
-  Batch 1000/2098, Loss: 0.8334
-  Batch 1050/2098, Loss: 1.3056
-  Batch 1100/2098, Loss: 0.8494
-  Batch 1150/2098, Loss: 1.1754
-  Batch 1200/2098, Loss: 0.7142
-  Batch 1250/2098, Loss: 0.9645
-  Batch 1300/2098, Loss: 0.6995
-  Batch 1350/2098, Loss: 0.6136
-  Batch 1400/2098, Loss: 0.8866
-  Batch 1450/2098, Loss: 0.7461
-  Batch 1500/2098, Loss: 1.1949
-  Batch 1550/2098, Loss: 1.1460
-  Batch 1600/2098, Loss: 0.7922
-  Batch 1650/2098, Loss: 0.7567
-  Batch 1700/2098, Loss: 0.6762
-  Batch 1750/2098, Loss: 0.9906
-  Batch 1800/2098, Loss: 0.8892
-  Batch 1850/2098, Loss: 1.1207
-  Batch 1900/2098, Loss: 1.1988
-  Batch 1950/2098, Loss: 0.4489
-  Batch 2000/2098, Loss: 1.1422
-  Batch 2050/2098, Loss: 0.5905
-Train Loss: 0.8827 Acc: 0.7788
-Val Loss: 1.4684 Acc: 0.7531
-Validation inference time: 40.4098s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 1.0029
+  Batch 100/2098, Loss: 0.9267
+  Batch 150/2098, Loss: 0.7558
+  Batch 200/2098, Loss: 0.6568
+  Batch 250/2098, Loss: 0.6418
+  Batch 300/2098, Loss: 1.0937
+  Batch 350/2098, Loss: 0.7772
+  Batch 400/2098, Loss: 0.6186
+  Batch 450/2098, Loss: 0.7015
+  Batch 500/2098, Loss: 0.9205
+  Batch 550/2098, Loss: 0.9699
+  Batch 600/2098, Loss: 0.9483
+  Batch 650/2098, Loss: 0.6925
+  Batch 700/2098, Loss: 1.2139
+  Batch 750/2098, Loss: 0.9225
+  Batch 800/2098, Loss: 0.9026
+  Batch 850/2098, Loss: 1.3897
+  Batch 900/2098, Loss: 1.3007
+  Batch 950/2098, Loss: 0.8565
+  Batch 1000/2098, Loss: 0.7711
+  Batch 1050/2098, Loss: 0.5749
+  Batch 1100/2098, Loss: 0.9823
+  Batch 1150/2098, Loss: 0.6821
+  Batch 1200/2098, Loss: 0.4828
+  Batch 1250/2098, Loss: 1.0924
+  Batch 1300/2098, Loss: 0.7559
+  Batch 1350/2098, Loss: 0.7838
+  Batch 1400/2098, Loss: 0.9746
+  Batch 1450/2098, Loss: 1.0098
+  Batch 1500/2098, Loss: 0.8707
+  Batch 1550/2098, Loss: 0.7478
+  Batch 1600/2098, Loss: 1.0937
+  Batch 1650/2098, Loss: 1.0493
+  Batch 1700/2098, Loss: 1.0057
+  Batch 1750/2098, Loss: 0.5277
+  Batch 1800/2098, Loss: 0.6906
+  Batch 1850/2098, Loss: 0.9783
+  Batch 1900/2098, Loss: 1.1189
+  Batch 1950/2098, Loss: 1.0080
+  Batch 2000/2098, Loss: 0.8446
+  Batch 2050/2098, Loss: 0.5651
+Train Loss: 0.8996 Acc: 0.7766
+Val Loss: 1.4981 Acc: 0.7487
+Validation inference time: 48.9037s total, 1.4572 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 375.56s
+Epoch time: 450.40s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 10/50
 ----------
-  Batch 50/2098, Loss: 0.9589
-  Batch 100/2098, Loss: 0.8064
-  Batch 150/2098, Loss: 0.8241
-  Batch 200/2098, Loss: 0.7698
-  Batch 250/2098, Loss: 0.7809
-  Batch 300/2098, Loss: 0.6242
-  Batch 350/2098, Loss: 0.6687
-  Batch 400/2098, Loss: 0.5930
-  Batch 450/2098, Loss: 0.9725
-  Batch 500/2098, Loss: 0.7184
-  Batch 550/2098, Loss: 0.7958
-  Batch 600/2098, Loss: 0.8371
-  Batch 650/2098, Loss: 0.7969
-  Batch 700/2098, Loss: 0.8351
-  Batch 750/2098, Loss: 0.9566
-  Batch 800/2098, Loss: 0.6389
-  Batch 850/2098, Loss: 0.6851
-  Batch 900/2098, Loss: 0.8034
-  Batch 950/2098, Loss: 0.7902
-  Batch 1000/2098, Loss: 0.4041
-  Batch 1050/2098, Loss: 0.6347
-  Batch 1100/2098, Loss: 0.7735
-  Batch 1150/2098, Loss: 0.6929
-  Batch 1200/2098, Loss: 0.6307
-  Batch 1250/2098, Loss: 1.0112
-  Batch 1300/2098, Loss: 0.4638
-  Batch 1350/2098, Loss: 0.8087
-  Batch 1400/2098, Loss: 0.7700
-  Batch 1450/2098, Loss: 0.6792
-  Batch 1500/2098, Loss: 0.9481
-  Batch 1550/2098, Loss: 1.0751
-  Batch 1600/2098, Loss: 0.8837
-  Batch 1650/2098, Loss: 0.9170
-  Batch 1700/2098, Loss: 0.7876
-  Batch 1750/2098, Loss: 0.6136
-  Batch 1800/2098, Loss: 0.8548
-  Batch 1850/2098, Loss: 1.3056
-  Batch 1900/2098, Loss: 0.9061
-  Batch 1950/2098, Loss: 0.4783
-  Batch 2000/2098, Loss: 0.6928
-  Batch 2050/2098, Loss: 0.9186
-Train Loss: 0.7729 Acc: 0.8020
-Val Loss: 1.4654 Acc: 0.7616
-Validation inference time: 40.4124s total, 1.2041 ms/sample
+  Batch 50/2098, Loss: 0.7656
+  Batch 100/2098, Loss: 0.8840
+  Batch 150/2098, Loss: 0.7559
+  Batch 200/2098, Loss: 0.7920
+  Batch 250/2098, Loss: 0.6524
+  Batch 300/2098, Loss: 0.5164
+  Batch 350/2098, Loss: 0.5940
+  Batch 400/2098, Loss: 0.5725
+  Batch 450/2098, Loss: 0.6367
+  Batch 500/2098, Loss: 0.5648
+  Batch 550/2098, Loss: 0.6962
+  Batch 600/2098, Loss: 0.8224
+  Batch 650/2098, Loss: 1.1122
+  Batch 700/2098, Loss: 0.6233
+  Batch 750/2098, Loss: 0.5347
+  Batch 800/2098, Loss: 0.9270
+  Batch 850/2098, Loss: 0.8351
+  Batch 900/2098, Loss: 0.7645
+  Batch 950/2098, Loss: 0.5087
+  Batch 1000/2098, Loss: 0.7075
+  Batch 1050/2098, Loss: 0.9370
+  Batch 1100/2098, Loss: 0.8303
+  Batch 1150/2098, Loss: 0.9089
+  Batch 1200/2098, Loss: 0.7106
+  Batch 1250/2098, Loss: 0.6045
+  Batch 1300/2098, Loss: 0.8741
+  Batch 1350/2098, Loss: 0.6709
+  Batch 1400/2098, Loss: 1.2258
+  Batch 1450/2098, Loss: 0.7168
+  Batch 1500/2098, Loss: 0.7811
+  Batch 1550/2098, Loss: 0.5859
+  Batch 1600/2098, Loss: 1.0982
+  Batch 1650/2098, Loss: 0.8780
+  Batch 1700/2098, Loss: 0.9701
+  Batch 1750/2098, Loss: 1.0454
+  Batch 1800/2098, Loss: 0.5301
+  Batch 1850/2098, Loss: 0.8867
+  Batch 1900/2098, Loss: 0.7880
+  Batch 1950/2098, Loss: 0.7419
+  Batch 2000/2098, Loss: 0.8304
+  Batch 2050/2098, Loss: 0.5780
+Train Loss: 0.7814 Acc: 0.8017
+Val Loss: 1.4862 Acc: 0.7558
+Validation inference time: 48.8391s total, 1.4552 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 376.38s
+Epoch time: 447.70s
 Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_10.pth
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 11/50
 ----------
-  Batch 50/2098, Loss: 0.5224
-  Batch 100/2098, Loss: 0.7203
-  Batch 150/2098, Loss: 0.8020
-  Batch 200/2098, Loss: 0.8011
-  Batch 250/2098, Loss: 0.5772
-  Batch 300/2098, Loss: 0.3567
-  Batch 350/2098, Loss: 0.8253
-  Batch 400/2098, Loss: 0.5583
-  Batch 450/2098, Loss: 1.3954
-  Batch 500/2098, Loss: 0.6466
-  Batch 550/2098, Loss: 0.5277
-  Batch 600/2098, Loss: 0.6424
-  Batch 650/2098, Loss: 0.8034
-  Batch 700/2098, Loss: 0.8274
-  Batch 750/2098, Loss: 0.5854
-  Batch 800/2098, Loss: 0.4455
-  Batch 850/2098, Loss: 0.8758
-  Batch 900/2098, Loss: 0.5367
-  Batch 950/2098, Loss: 0.7147
-  Batch 1000/2098, Loss: 0.7683
-  Batch 1050/2098, Loss: 0.9531
-  Batch 1100/2098, Loss: 0.8150
-  Batch 1150/2098, Loss: 0.6139
-  Batch 1200/2098, Loss: 0.7620
-  Batch 1250/2098, Loss: 0.5730
-  Batch 1300/2098, Loss: 0.9611
-  Batch 1350/2098, Loss: 0.9730
-  Batch 1400/2098, Loss: 0.7146
-  Batch 1450/2098, Loss: 0.6393
-  Batch 1500/2098, Loss: 0.5152
-  Batch 1550/2098, Loss: 0.8559
-  Batch 1600/2098, Loss: 0.4178
-  Batch 1650/2098, Loss: 0.6725
-  Batch 1700/2098, Loss: 0.6284
-  Batch 1750/2098, Loss: 0.7737
-  Batch 1800/2098, Loss: 0.6245
-  Batch 1850/2098, Loss: 0.8424
-  Batch 1900/2098, Loss: 0.4339
-  Batch 1950/2098, Loss: 0.8812
-  Batch 2000/2098, Loss: 0.5928
-  Batch 2050/2098, Loss: 0.7703
-Train Loss: 0.6809 Acc: 0.8219
-Val Loss: 1.5164 Acc: 0.7648
-Validation inference time: 40.4076s total, 1.2040 ms/sample
+  Batch 50/2098, Loss: 0.4916
+  Batch 100/2098, Loss: 0.7483
+  Batch 150/2098, Loss: 0.6683
+  Batch 200/2098, Loss: 0.5014
+  Batch 250/2098, Loss: 0.5785
+  Batch 300/2098, Loss: 0.4397
+  Batch 350/2098, Loss: 0.6879
+  Batch 400/2098, Loss: 0.7689
+  Batch 450/2098, Loss: 0.5603
+  Batch 500/2098, Loss: 0.5673
+  Batch 550/2098, Loss: 0.7855
+  Batch 600/2098, Loss: 0.7393
+  Batch 650/2098, Loss: 0.6110
+  Batch 700/2098, Loss: 0.7419
+  Batch 750/2098, Loss: 1.1531
+  Batch 800/2098, Loss: 0.6027
+  Batch 850/2098, Loss: 0.5494
+  Batch 900/2098, Loss: 0.7024
+  Batch 950/2098, Loss: 0.8503
+  Batch 1000/2098, Loss: 1.0041
+  Batch 1050/2098, Loss: 0.6675
+  Batch 1100/2098, Loss: 0.8605
+  Batch 1150/2098, Loss: 0.6211
+  Batch 1200/2098, Loss: 1.0393
+  Batch 1250/2098, Loss: 0.6563
+  Batch 1300/2098, Loss: 0.4305
+  Batch 1350/2098, Loss: 0.9799
+  Batch 1400/2098, Loss: 0.6311
+  Batch 1450/2098, Loss: 0.3355
+  Batch 1500/2098, Loss: 1.0811
+  Batch 1550/2098, Loss: 0.8188
+  Batch 1600/2098, Loss: 0.6535
+  Batch 1650/2098, Loss: 0.9324
+  Batch 1700/2098, Loss: 0.6927
+  Batch 1750/2098, Loss: 0.8137
+  Batch 1800/2098, Loss: 0.6133
+  Batch 1850/2098, Loss: 0.5563
+  Batch 1900/2098, Loss: 0.4944
+  Batch 1950/2098, Loss: 0.5690
+  Batch 2000/2098, Loss: 0.6721
+  Batch 2050/2098, Loss: 0.5096
+Train Loss: 0.6843 Acc: 0.8224
+Val Loss: 1.4862 Acc: 0.7595
+Validation inference time: 49.2559s total, 1.4677 ms/sample
 Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
 Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
-Epoch time: 375.55s
+Epoch time: 448.35s
 Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
 
 Epoch 12/50
 ----------
+  Batch 50/2098, Loss: 0.4535
+  Batch 100/2098, Loss: 0.5620
+  Batch 150/2098, Loss: 0.5596
+  Batch 200/2098, Loss: 0.6696
+  Batch 250/2098, Loss: 0.5553
+  Batch 300/2098, Loss: 0.4181
+  Batch 350/2098, Loss: 0.4559
+  Batch 400/2098, Loss: 0.4110
+  Batch 450/2098, Loss: 0.5700
+  Batch 500/2098, Loss: 0.5506
+  Batch 550/2098, Loss: 0.6195
+  Batch 600/2098, Loss: 0.4257
+  Batch 650/2098, Loss: 0.7978
+  Batch 700/2098, Loss: 0.8986
+  Batch 750/2098, Loss: 0.6455
+  Batch 800/2098, Loss: 0.6778
+  Batch 850/2098, Loss: 0.3514
+  Batch 900/2098, Loss: 0.6757
+  Batch 950/2098, Loss: 0.5589
+  Batch 1000/2098, Loss: 0.6590
+  Batch 1050/2098, Loss: 0.3959
+  Batch 1100/2098, Loss: 0.4954
+  Batch 1150/2098, Loss: 0.4184
+  Batch 1200/2098, Loss: 0.7256
+  Batch 1250/2098, Loss: 0.8423
+  Batch 1300/2098, Loss: 0.7651
+  Batch 1350/2098, Loss: 0.8266
+  Batch 1400/2098, Loss: 0.4231
+  Batch 1450/2098, Loss: 0.7033
+  Batch 1500/2098, Loss: 0.8097
+  Batch 1550/2098, Loss: 0.4751
+  Batch 1600/2098, Loss: 0.7260
+  Batch 1650/2098, Loss: 0.6407
+  Batch 1700/2098, Loss: 0.8088
+  Batch 1750/2098, Loss: 0.4506
+  Batch 1800/2098, Loss: 0.5291
+  Batch 1850/2098, Loss: 0.7082
+  Batch 1900/2098, Loss: 0.6928
+  Batch 1950/2098, Loss: 0.4786
+  Batch 2000/2098, Loss: 0.7080
+  Batch 2050/2098, Loss: 0.6962
+Train Loss: 0.6110 Acc: 0.8375
+Val Loss: 1.4631 Acc: 0.7625
+Validation inference time: 46.6821s total, 1.3910 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 554.31s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 13/50
+----------
+  Batch 50/2098, Loss: 0.4931
+  Batch 100/2098, Loss: 0.5214
+  Batch 150/2098, Loss: 0.4170
+  Batch 200/2098, Loss: 0.4970
+  Batch 250/2098, Loss: 0.3295
+  Batch 300/2098, Loss: 0.3291
+  Batch 350/2098, Loss: 0.3653
+  Batch 400/2098, Loss: 0.3812
+  Batch 450/2098, Loss: 0.4862
+  Batch 500/2098, Loss: 0.8683
+  Batch 550/2098, Loss: 1.0378
+  Batch 600/2098, Loss: 0.7223
+  Batch 650/2098, Loss: 0.3169
+  Batch 700/2098, Loss: 0.4981
+  Batch 750/2098, Loss: 0.2978
+  Batch 800/2098, Loss: 0.6486
+  Batch 850/2098, Loss: 0.3203
+  Batch 900/2098, Loss: 0.4274
+  Batch 950/2098, Loss: 0.5607
+  Batch 1000/2098, Loss: 0.6333
+  Batch 1050/2098, Loss: 0.2893
+  Batch 1100/2098, Loss: 0.6263
+  Batch 1150/2098, Loss: 0.5668
+  Batch 1200/2098, Loss: 0.4572
+  Batch 1250/2098, Loss: 0.6672
+  Batch 1300/2098, Loss: 0.7231
+  Batch 1350/2098, Loss: 0.6150
+  Batch 1400/2098, Loss: 0.5271
+  Batch 1450/2098, Loss: 0.6490
+  Batch 1500/2098, Loss: 0.7029
+  Batch 1550/2098, Loss: 0.4859
+  Batch 1600/2098, Loss: 0.6268
+  Batch 1650/2098, Loss: 0.5821
+  Batch 1700/2098, Loss: 0.3552
+  Batch 1750/2098, Loss: 0.6899
+  Batch 1800/2098, Loss: 0.5299
+  Batch 1850/2098, Loss: 0.4851
+  Batch 1900/2098, Loss: 0.4286
+  Batch 1950/2098, Loss: 0.6612
+  Batch 2000/2098, Loss: 0.5836
+  Batch 2050/2098, Loss: 0.5364
+Train Loss: 0.5487 Acc: 0.8517
+Val Loss: 1.5270 Acc: 0.7660
+Validation inference time: 40.6376s total, 1.2109 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 522.98s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 14/50
+----------
+  Batch 50/2098, Loss: 0.6117
+  Batch 100/2098, Loss: 0.3089
+  Batch 150/2098, Loss: 0.2728
+  Batch 200/2098, Loss: 0.4817
+  Batch 250/2098, Loss: 0.3945
+  Batch 300/2098, Loss: 0.3929
+  Batch 350/2098, Loss: 0.6388
+  Batch 400/2098, Loss: 0.5638
+  Batch 450/2098, Loss: 0.3575
+  Batch 500/2098, Loss: 0.2984
+  Batch 550/2098, Loss: 0.4380
+  Batch 600/2098, Loss: 0.3546
+  Batch 650/2098, Loss: 0.6471
+  Batch 700/2098, Loss: 0.4154
+  Batch 750/2098, Loss: 0.3706
+  Batch 800/2098, Loss: 0.5292
+  Batch 850/2098, Loss: 0.6255
+  Batch 900/2098, Loss: 0.2720
+  Batch 950/2098, Loss: 0.1976
+  Batch 1000/2098, Loss: 0.4368
+  Batch 1050/2098, Loss: 0.4658
+  Batch 1100/2098, Loss: 0.4076
+  Batch 1150/2098, Loss: 0.5927
+  Batch 1200/2098, Loss: 0.2678
+  Batch 1250/2098, Loss: 0.8156
+  Batch 1300/2098, Loss: 0.8093
+  Batch 1350/2098, Loss: 0.5786
+  Batch 1400/2098, Loss: 0.6649
+  Batch 1450/2098, Loss: 0.5595
+  Batch 1500/2098, Loss: 0.2942
+  Batch 1550/2098, Loss: 0.5195
+  Batch 1600/2098, Loss: 0.4610
+  Batch 1650/2098, Loss: 0.6740
+  Batch 1700/2098, Loss: 0.3980
+  Batch 1750/2098, Loss: 0.3780
+  Batch 1800/2098, Loss: 0.5132
+  Batch 1850/2098, Loss: 0.6965
+  Batch 1900/2098, Loss: 0.7099
+  Batch 1950/2098, Loss: 0.6262
+  Batch 2000/2098, Loss: 0.6667
+  Batch 2050/2098, Loss: 0.3322
+Train Loss: 0.4881 Acc: 0.8657
+Val Loss: 1.5069 Acc: 0.7730
+Validation inference time: 40.4334s total, 1.2048 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 390.37s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 15/50
+----------
+  Batch 50/2098, Loss: 0.3843
+  Batch 100/2098, Loss: 0.1957
+  Batch 150/2098, Loss: 0.4983
+  Batch 200/2098, Loss: 0.5868
+  Batch 250/2098, Loss: 0.3843
+  Batch 300/2098, Loss: 0.4200
+  Batch 350/2098, Loss: 0.3082
+  Batch 400/2098, Loss: 0.2634
+  Batch 450/2098, Loss: 0.4838
+  Batch 500/2098, Loss: 0.5195
+  Batch 550/2098, Loss: 0.3162
+  Batch 600/2098, Loss: 0.4104
+  Batch 650/2098, Loss: 0.3662
+  Batch 700/2098, Loss: 0.3960
+  Batch 750/2098, Loss: 0.4289
+  Batch 800/2098, Loss: 0.2686
+  Batch 850/2098, Loss: 0.3658
+  Batch 900/2098, Loss: 0.5641
+  Batch 950/2098, Loss: 0.2787
+  Batch 1000/2098, Loss: 0.2850
+  Batch 1050/2098, Loss: 0.6243
+  Batch 1100/2098, Loss: 0.4508
+  Batch 1150/2098, Loss: 0.6764
+  Batch 1200/2098, Loss: 0.4774
+  Batch 1250/2098, Loss: 0.3084
+  Batch 1300/2098, Loss: 0.3609
+  Batch 1350/2098, Loss: 0.2571
+  Batch 1400/2098, Loss: 0.5004
+  Batch 1450/2098, Loss: 0.6758
+  Batch 1500/2098, Loss: 0.3882
+  Batch 1550/2098, Loss: 0.5794
+  Batch 1600/2098, Loss: 0.4192
+  Batch 1650/2098, Loss: 0.6683
+  Batch 1700/2098, Loss: 0.3102
+  Batch 1750/2098, Loss: 0.3593
+  Batch 1800/2098, Loss: 0.3526
+  Batch 1850/2098, Loss: 0.4380
+  Batch 1900/2098, Loss: 0.5893
+  Batch 1950/2098, Loss: 0.4390
+  Batch 2000/2098, Loss: 0.7514
+  Batch 2050/2098, Loss: 0.6659
+Train Loss: 0.4437 Acc: 0.8757
+Val Loss: 1.5337 Acc: 0.7712
+Validation inference time: 40.8962s total, 1.2186 ms/sample
+Epoch time: 391.95s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_15.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 16/50
+----------
+  Batch 50/2098, Loss: 0.3131
+  Batch 100/2098, Loss: 0.2999
+  Batch 150/2098, Loss: 0.3274
+  Batch 200/2098, Loss: 0.3948
+  Batch 250/2098, Loss: 0.3177
+  Batch 300/2098, Loss: 0.1540
+  Batch 350/2098, Loss: 0.6444
+  Batch 400/2098, Loss: 0.3988
+  Batch 450/2098, Loss: 0.3462
+  Batch 500/2098, Loss: 0.3299
+  Batch 550/2098, Loss: 0.2891
+  Batch 600/2098, Loss: 0.2424
+  Batch 650/2098, Loss: 0.5579
+  Batch 700/2098, Loss: 0.4775
+  Batch 750/2098, Loss: 0.2641
+  Batch 800/2098, Loss: 0.4592
+  Batch 850/2098, Loss: 0.4118
+  Batch 900/2098, Loss: 0.6306
+  Batch 950/2098, Loss: 0.5432
+  Batch 1000/2098, Loss: 0.3798
+  Batch 1050/2098, Loss: 0.3899
+  Batch 1100/2098, Loss: 0.4661
+  Batch 1150/2098, Loss: 0.4414
+  Batch 1200/2098, Loss: 0.4550
+  Batch 1250/2098, Loss: 0.4912
+  Batch 1300/2098, Loss: 0.3271
+  Batch 1350/2098, Loss: 0.5548
+  Batch 1400/2098, Loss: 0.3084
+  Batch 1450/2098, Loss: 0.2963
+  Batch 1500/2098, Loss: 0.3180
+  Batch 1550/2098, Loss: 0.2784
+  Batch 1600/2098, Loss: 0.3835
+  Batch 1650/2098, Loss: 0.4701
+  Batch 1700/2098, Loss: 0.4117
+  Batch 1750/2098, Loss: 0.4492
+  Batch 1800/2098, Loss: 0.2668
+  Batch 1850/2098, Loss: 0.3105
+  Batch 1900/2098, Loss: 0.4082
+  Batch 1950/2098, Loss: 0.4526
+  Batch 2000/2098, Loss: 0.2625
+  Batch 2050/2098, Loss: 0.3931
+Train Loss: 0.4022 Acc: 0.8852
+Val Loss: 1.5251 Acc: 0.7767
+Validation inference time: 40.5423s total, 1.2080 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 394.24s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 17/50
+----------
+  Batch 50/2098, Loss: 0.2375
+  Batch 100/2098, Loss: 0.2940
+  Batch 150/2098, Loss: 0.4771
+  Batch 200/2098, Loss: 0.5813
+  Batch 250/2098, Loss: 0.4158
+  Batch 300/2098, Loss: 0.3963
+  Batch 350/2098, Loss: 0.2408
+  Batch 400/2098, Loss: 0.4624
+  Batch 450/2098, Loss: 0.2426
+  Batch 500/2098, Loss: 0.0973
+  Batch 550/2098, Loss: 0.3117
+  Batch 600/2098, Loss: 0.1821
+  Batch 650/2098, Loss: 0.2156
+  Batch 700/2098, Loss: 0.6821
+  Batch 750/2098, Loss: 0.3201
+  Batch 800/2098, Loss: 0.2236
+  Batch 850/2098, Loss: 0.2840
+  Batch 900/2098, Loss: 0.2066
+  Batch 950/2098, Loss: 0.3691
+  Batch 1000/2098, Loss: 0.3956
+  Batch 1050/2098, Loss: 0.5015
+  Batch 1100/2098, Loss: 0.4731
+  Batch 1150/2098, Loss: 0.0894
+  Batch 1200/2098, Loss: 0.4151
+  Batch 1250/2098, Loss: 0.4108
+  Batch 1300/2098, Loss: 0.4359
+  Batch 1350/2098, Loss: 0.3026
+  Batch 1400/2098, Loss: 0.4005
+  Batch 1450/2098, Loss: 0.4419
+  Batch 1500/2098, Loss: 0.2820
+  Batch 1550/2098, Loss: 0.2363
+  Batch 1600/2098, Loss: 0.2221
+  Batch 1650/2098, Loss: 0.3781
+  Batch 1700/2098, Loss: 0.5431
+  Batch 1750/2098, Loss: 0.4629
+  Batch 1800/2098, Loss: 0.2812
+  Batch 1850/2098, Loss: 0.5976
+  Batch 1900/2098, Loss: 0.5345
+  Batch 1950/2098, Loss: 0.3464
+  Batch 2000/2098, Loss: 0.3992
+  Batch 2050/2098, Loss: 0.4980
+Train Loss: 0.3650 Acc: 0.8946
+Val Loss: 1.5390 Acc: 0.7768
+Validation inference time: 40.6380s total, 1.2109 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 394.00s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 18/50
+----------
+  Batch 50/2098, Loss: 0.1280
+  Batch 100/2098, Loss: 0.1722
+  Batch 150/2098, Loss: 0.3280
+  Batch 200/2098, Loss: 0.2497
+  Batch 250/2098, Loss: 0.3363
+  Batch 300/2098, Loss: 0.3444
+  Batch 350/2098, Loss: 0.3393
+  Batch 400/2098, Loss: 0.3727
+  Batch 450/2098, Loss: 0.3305
+  Batch 500/2098, Loss: 0.2248
+  Batch 550/2098, Loss: 0.2610
+  Batch 600/2098, Loss: 0.2640
+  Batch 650/2098, Loss: 0.2284
+  Batch 700/2098, Loss: 0.4362
+  Batch 750/2098, Loss: 0.3353
+  Batch 800/2098, Loss: 0.3436
+  Batch 850/2098, Loss: 0.3086
+  Batch 900/2098, Loss: 0.4139
+  Batch 950/2098, Loss: 0.4835
+  Batch 1000/2098, Loss: 0.3062
+  Batch 1050/2098, Loss: 0.3501
+  Batch 1100/2098, Loss: 0.2439
+  Batch 1150/2098, Loss: 0.5257
+  Batch 1200/2098, Loss: 0.3322
+  Batch 1250/2098, Loss: 0.2177
+  Batch 1300/2098, Loss: 0.4573
+  Batch 1350/2098, Loss: 0.3046
+  Batch 1400/2098, Loss: 0.1709
+  Batch 1450/2098, Loss: 0.3900
+  Batch 1500/2098, Loss: 0.2849
+  Batch 1550/2098, Loss: 0.2240
+  Batch 1600/2098, Loss: 0.3023
+  Batch 1650/2098, Loss: 0.3416
+  Batch 1700/2098, Loss: 0.5607
+  Batch 1750/2098, Loss: 0.3975
+  Batch 1800/2098, Loss: 0.4936
+  Batch 1850/2098, Loss: 0.3510
+  Batch 1900/2098, Loss: 0.3004
+  Batch 1950/2098, Loss: 0.2580
+  Batch 2000/2098, Loss: 0.2549
+  Batch 2050/2098, Loss: 0.5331
+Train Loss: 0.3379 Acc: 0.9019
+Val Loss: 1.5760 Acc: 0.7778
+Validation inference time: 40.5898s total, 1.2094 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 394.47s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 19/50
+----------
+  Batch 50/2098, Loss: 0.2675
+  Batch 100/2098, Loss: 0.4132
+  Batch 150/2098, Loss: 0.2573
+  Batch 200/2098, Loss: 0.1734
+  Batch 250/2098, Loss: 0.3542
+  Batch 300/2098, Loss: 0.2581
+  Batch 350/2098, Loss: 0.1191
+  Batch 400/2098, Loss: 0.1534
+  Batch 450/2098, Loss: 0.3426
+  Batch 500/2098, Loss: 0.2200
+  Batch 550/2098, Loss: 0.4209
+  Batch 600/2098, Loss: 0.3363
+  Batch 650/2098, Loss: 0.5537
+  Batch 700/2098, Loss: 0.1901
+  Batch 750/2098, Loss: 0.3091
+  Batch 800/2098, Loss: 0.0791
+  Batch 850/2098, Loss: 0.2957
+  Batch 900/2098, Loss: 0.2527
+  Batch 950/2098, Loss: 0.5745
+  Batch 1000/2098, Loss: 0.2584
+  Batch 1050/2098, Loss: 0.3408
+  Batch 1100/2098, Loss: 0.2127
+  Batch 1150/2098, Loss: 0.2970
+  Batch 1200/2098, Loss: 0.3939
+  Batch 1250/2098, Loss: 0.3388
+  Batch 1300/2098, Loss: 0.1146
+  Batch 1350/2098, Loss: 0.3425
+  Batch 1400/2098, Loss: 0.2061
+  Batch 1450/2098, Loss: 0.2774
+  Batch 1500/2098, Loss: 0.3202
+  Batch 1550/2098, Loss: 0.2489
+  Batch 1600/2098, Loss: 0.2555
+  Batch 1650/2098, Loss: 0.2157
+  Batch 1700/2098, Loss: 0.2318
+  Batch 1750/2098, Loss: 0.3170
+  Batch 1800/2098, Loss: 0.3697
+  Batch 1850/2098, Loss: 0.4567
+  Batch 1900/2098, Loss: 0.2692
+  Batch 1950/2098, Loss: 0.3126
+  Batch 2000/2098, Loss: 0.4121
+  Batch 2050/2098, Loss: 0.3761
+Train Loss: 0.3143 Acc: 0.9076
+Val Loss: 1.5812 Acc: 0.7797
+Validation inference time: 40.6696s total, 1.2118 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 394.93s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 20/50
+----------
+  Batch 50/2098, Loss: 0.3600
+  Batch 100/2098, Loss: 0.2680
+  Batch 150/2098, Loss: 0.1528
+  Batch 200/2098, Loss: 0.1020
+  Batch 250/2098, Loss: 0.3061
+  Batch 300/2098, Loss: 0.1017
+  Batch 350/2098, Loss: 0.2529
+  Batch 400/2098, Loss: 0.3149
+  Batch 450/2098, Loss: 0.5321
+  Batch 500/2098, Loss: 0.2794
+  Batch 550/2098, Loss: 0.1700
+  Batch 600/2098, Loss: 0.2595
+  Batch 650/2098, Loss: 0.1985
+  Batch 700/2098, Loss: 0.1690
+  Batch 750/2098, Loss: 0.3506
+  Batch 800/2098, Loss: 0.4549
+  Batch 850/2098, Loss: 0.4888
+  Batch 900/2098, Loss: 0.2211
+  Batch 950/2098, Loss: 0.3664
+  Batch 1000/2098, Loss: 0.2833
+  Batch 1050/2098, Loss: 0.3520
+  Batch 1100/2098, Loss: 0.2093
+  Batch 1150/2098, Loss: 0.6290
+  Batch 1200/2098, Loss: 0.3874
+  Batch 1250/2098, Loss: 0.4751
+  Batch 1300/2098, Loss: 0.4446
+  Batch 1350/2098, Loss: 0.3208
+  Batch 1400/2098, Loss: 0.2250
+  Batch 1450/2098, Loss: 0.6465
+  Batch 1500/2098, Loss: 0.3232
+  Batch 1550/2098, Loss: 0.2442
+  Batch 1600/2098, Loss: 0.2660
+  Batch 1650/2098, Loss: 0.1482
+  Batch 1700/2098, Loss: 0.3138
+  Batch 1750/2098, Loss: 0.3734
+  Batch 1800/2098, Loss: 0.1617
+  Batch 1850/2098, Loss: 0.3027
+  Batch 1900/2098, Loss: 0.3032
+  Batch 1950/2098, Loss: 0.1273
+  Batch 2000/2098, Loss: 0.3351
+  Batch 2050/2098, Loss: 0.6055
+Train Loss: 0.2895 Acc: 0.9147
+Val Loss: 1.5759 Acc: 0.7803
+Validation inference time: 41.0196s total, 1.2222 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 397.44s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_20.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 21/50
+----------
+  Batch 50/2098, Loss: 0.2912
+  Batch 100/2098, Loss: 0.1942
+  Batch 150/2098, Loss: 0.3251
+  Batch 200/2098, Loss: 0.2292
+  Batch 250/2098, Loss: 0.5307
+  Batch 300/2098, Loss: 0.3669
+  Batch 350/2098, Loss: 0.1365
+  Batch 400/2098, Loss: 0.2823
+  Batch 450/2098, Loss: 0.2211
+  Batch 500/2098, Loss: 0.1789
+  Batch 550/2098, Loss: 0.1879
+  Batch 600/2098, Loss: 0.1752
+  Batch 650/2098, Loss: 0.1850
+  Batch 700/2098, Loss: 0.4073
+  Batch 750/2098, Loss: 0.2182
+  Batch 800/2098, Loss: 0.4774
+  Batch 850/2098, Loss: 0.1707
+  Batch 900/2098, Loss: 0.1002
+  Batch 950/2098, Loss: 0.1693
+  Batch 1000/2098, Loss: 0.2186
+  Batch 1050/2098, Loss: 0.1009
+  Batch 1100/2098, Loss: 0.1914
+  Batch 1150/2098, Loss: 0.4727
+  Batch 1200/2098, Loss: 0.2120
+  Batch 1250/2098, Loss: 0.4656
+  Batch 1300/2098, Loss: 0.1714
+  Batch 1350/2098, Loss: 0.1467
+  Batch 1400/2098, Loss: 0.0850
+  Batch 1450/2098, Loss: 0.4721
+  Batch 1500/2098, Loss: 0.2699
+  Batch 1550/2098, Loss: 0.1082
+  Batch 1600/2098, Loss: 0.2297
+  Batch 1650/2098, Loss: 0.1782
+  Batch 1700/2098, Loss: 0.2255
+  Batch 1750/2098, Loss: 0.2957
+  Batch 1800/2098, Loss: 0.5155
+  Batch 1850/2098, Loss: 0.2498
+  Batch 1900/2098, Loss: 0.3540
+  Batch 1950/2098, Loss: 0.3329
+  Batch 2000/2098, Loss: 0.1828
+  Batch 2050/2098, Loss: 0.3219
+Train Loss: 0.2633 Acc: 0.9211
+Val Loss: 1.6274 Acc: 0.7809
+Validation inference time: 47.6590s total, 1.4201 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 412.35s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 22/50
+----------
+  Batch 50/2098, Loss: 0.1927
+  Batch 100/2098, Loss: 0.2602
+  Batch 150/2098, Loss: 0.2821
+  Batch 200/2098, Loss: 0.2439
+  Batch 250/2098, Loss: 0.2986
+  Batch 300/2098, Loss: 0.2827
+  Batch 350/2098, Loss: 0.2751
+  Batch 400/2098, Loss: 0.1197
+  Batch 450/2098, Loss: 0.2342
+  Batch 500/2098, Loss: 0.3424
+  Batch 550/2098, Loss: 0.3309
+  Batch 600/2098, Loss: 0.2228
+  Batch 650/2098, Loss: 0.3499
+  Batch 700/2098, Loss: 0.3104
+  Batch 750/2098, Loss: 0.2843
+  Batch 800/2098, Loss: 0.2966
+  Batch 850/2098, Loss: 0.1803
+  Batch 900/2098, Loss: 0.3014
+  Batch 950/2098, Loss: 0.2564
+  Batch 1000/2098, Loss: 0.5307
+  Batch 1050/2098, Loss: 0.4170
+  Batch 1100/2098, Loss: 0.3446
+  Batch 1150/2098, Loss: 0.1825
+  Batch 1200/2098, Loss: 0.4054
+  Batch 1250/2098, Loss: 0.1297
+  Batch 1300/2098, Loss: 0.5362
+  Batch 1350/2098, Loss: 0.1259
+  Batch 1400/2098, Loss: 0.2290
+  Batch 1450/2098, Loss: 0.3488
+  Batch 1500/2098, Loss: 0.1729
+  Batch 1550/2098, Loss: 0.3478
+  Batch 1600/2098, Loss: 0.3691
+  Batch 1650/2098, Loss: 0.2660
+  Batch 1700/2098, Loss: 0.2935
+  Batch 1750/2098, Loss: 0.1878
+  Batch 1800/2098, Loss: 0.2812
+  Batch 1850/2098, Loss: 0.2343
+  Batch 1900/2098, Loss: 0.3411
+  Batch 1950/2098, Loss: 0.2048
+  Batch 2000/2098, Loss: 0.2633
+  Batch 2050/2098, Loss: 0.2208
+Train Loss: 0.2542 Acc: 0.9240
+Val Loss: 1.6357 Acc: 0.7851
+Validation inference time: 47.6739s total, 1.4205 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 408.84s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 23/50
+----------
+  Batch 50/2098, Loss: 0.1067
+  Batch 100/2098, Loss: 0.3187
+  Batch 150/2098, Loss: 0.2810
+  Batch 200/2098, Loss: 0.2885
+  Batch 250/2098, Loss: 0.1434
+  Batch 300/2098, Loss: 0.2847
+  Batch 350/2098, Loss: 0.2298
+  Batch 400/2098, Loss: 0.2592
+  Batch 450/2098, Loss: 0.3336
+  Batch 500/2098, Loss: 0.1826
+  Batch 550/2098, Loss: 0.1820
+  Batch 600/2098, Loss: 0.4782
+  Batch 650/2098, Loss: 0.1877
+  Batch 700/2098, Loss: 0.1913
+  Batch 750/2098, Loss: 0.1589
+  Batch 800/2098, Loss: 0.1920
+  Batch 850/2098, Loss: 0.2431
+  Batch 900/2098, Loss: 0.1159
+  Batch 950/2098, Loss: 0.1823
+  Batch 1000/2098, Loss: 0.0778
+  Batch 1050/2098, Loss: 0.1590
+  Batch 1100/2098, Loss: 0.2392
+  Batch 1150/2098, Loss: 0.0651
+  Batch 1200/2098, Loss: 0.2364
+  Batch 1250/2098, Loss: 0.2410
+  Batch 1300/2098, Loss: 0.2129
+  Batch 1350/2098, Loss: 0.2618
+  Batch 1400/2098, Loss: 0.2188
+  Batch 1450/2098, Loss: 0.1511
+  Batch 1500/2098, Loss: 0.1156
+  Batch 1550/2098, Loss: 0.2325
+  Batch 1600/2098, Loss: 0.1357
+  Batch 1650/2098, Loss: 0.1551
+  Batch 1700/2098, Loss: 0.1913
+  Batch 1750/2098, Loss: 0.2005
+  Batch 1800/2098, Loss: 0.2428
+  Batch 1850/2098, Loss: 0.1499
+  Batch 1900/2098, Loss: 0.4489
+  Batch 1950/2098, Loss: 0.4714
+  Batch 2000/2098, Loss: 0.1310
+  Batch 2050/2098, Loss: 0.4085
+Train Loss: 0.2411 Acc: 0.9278
+Val Loss: 1.6385 Acc: 0.7793
+Validation inference time: 47.5615s total, 1.4172 ms/sample
+Epoch time: 406.80s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 24/50
+----------
+  Batch 50/2098, Loss: 0.3809
+  Batch 100/2098, Loss: 0.2609
+  Batch 150/2098, Loss: 0.0931
+  Batch 200/2098, Loss: 0.0598
+  Batch 250/2098, Loss: 0.1417
+  Batch 300/2098, Loss: 0.2057
+  Batch 350/2098, Loss: 0.3797
+  Batch 400/2098, Loss: 0.0677
+  Batch 450/2098, Loss: 0.3838
+  Batch 500/2098, Loss: 0.2318
+  Batch 550/2098, Loss: 0.1623
+  Batch 600/2098, Loss: 0.2489
+  Batch 650/2098, Loss: 0.3637
+  Batch 700/2098, Loss: 0.3185
+  Batch 750/2098, Loss: 0.3095
+  Batch 800/2098, Loss: 0.2258
+  Batch 850/2098, Loss: 0.2225
+  Batch 900/2098, Loss: 0.1277
+  Batch 950/2098, Loss: 0.1737
+  Batch 1000/2098, Loss: 0.3794
+  Batch 1050/2098, Loss: 0.2736
+  Batch 1100/2098, Loss: 0.1065
+  Batch 1150/2098, Loss: 0.2340
+  Batch 1200/2098, Loss: 0.1522
+  Batch 1250/2098, Loss: 0.1935
+  Batch 1300/2098, Loss: 0.1469
+  Batch 1350/2098, Loss: 0.2163
+  Batch 1400/2098, Loss: 0.1640
+  Batch 1450/2098, Loss: 0.1519
+  Batch 1500/2098, Loss: 0.2879
+  Batch 1550/2098, Loss: 0.2680
+  Batch 1600/2098, Loss: 0.1182
+  Batch 1650/2098, Loss: 0.3151
+  Batch 1700/2098, Loss: 0.3192
+  Batch 1750/2098, Loss: 0.2127
+  Batch 1800/2098, Loss: 0.0895
+  Batch 1850/2098, Loss: 0.2132
+  Batch 1900/2098, Loss: 0.2455
+  Batch 1950/2098, Loss: 0.1993
+  Batch 2000/2098, Loss: 0.3005
+  Batch 2050/2098, Loss: 0.2693
+Train Loss: 0.2270 Acc: 0.9311
+Val Loss: 1.6303 Acc: 0.7885
+Validation inference time: 47.5202s total, 1.4159 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 407.66s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 25/50
+----------
+  Batch 50/2098, Loss: 0.0808
+  Batch 100/2098, Loss: 0.3715
+  Batch 150/2098, Loss: 0.2299
+  Batch 200/2098, Loss: 0.2526
+  Batch 250/2098, Loss: 0.1013
+  Batch 300/2098, Loss: 0.1296
+  Batch 350/2098, Loss: 0.3613
+  Batch 400/2098, Loss: 0.1884
+  Batch 450/2098, Loss: 0.3211
+  Batch 500/2098, Loss: 0.2326
+  Batch 550/2098, Loss: 0.0989
+  Batch 600/2098, Loss: 0.0866
+  Batch 650/2098, Loss: 0.1843
+  Batch 700/2098, Loss: 0.0999
+  Batch 750/2098, Loss: 0.3060
+  Batch 800/2098, Loss: 0.2089
+  Batch 850/2098, Loss: 0.1707
+  Batch 900/2098, Loss: 0.1762
+  Batch 950/2098, Loss: 0.2062
+  Batch 1000/2098, Loss: 0.2869
+  Batch 1050/2098, Loss: 0.2118
+  Batch 1100/2098, Loss: 0.2333
+  Batch 1150/2098, Loss: 0.0805
+  Batch 1200/2098, Loss: 0.2395
+  Batch 1250/2098, Loss: 0.2927
+  Batch 1300/2098, Loss: 0.1321
+  Batch 1350/2098, Loss: 0.1809
+  Batch 1400/2098, Loss: 0.2807
+  Batch 1450/2098, Loss: 0.2683
+  Batch 1500/2098, Loss: 0.1402
+  Batch 1550/2098, Loss: 0.2567
+  Batch 1600/2098, Loss: 0.3684
+  Batch 1650/2098, Loss: 0.1823
+  Batch 1700/2098, Loss: 0.2012
+  Batch 1750/2098, Loss: 0.1661
+  Batch 1800/2098, Loss: 0.2394
+  Batch 1850/2098, Loss: 0.1157
+  Batch 1900/2098, Loss: 0.2330
+  Batch 1950/2098, Loss: 0.1422
+  Batch 2000/2098, Loss: 0.1560
+  Batch 2050/2098, Loss: 0.1436
+Train Loss: 0.2097 Acc: 0.9371
+Val Loss: 1.6758 Acc: 0.7851
+Validation inference time: 48.7264s total, 1.4519 ms/sample
+Epoch time: 408.04s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_25.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 26/50
+----------
+  Batch 50/2098, Loss: 0.2827
+  Batch 100/2098, Loss: 0.1792
+  Batch 150/2098, Loss: 0.2473
+  Batch 200/2098, Loss: 0.2060
+  Batch 250/2098, Loss: 0.1705
+  Batch 300/2098, Loss: 0.1829
+  Batch 350/2098, Loss: 0.2606
+  Batch 400/2098, Loss: 0.1793
+  Batch 450/2098, Loss: 0.1862
+  Batch 500/2098, Loss: 0.0904
+  Batch 550/2098, Loss: 0.1436
+  Batch 600/2098, Loss: 0.1240
+  Batch 650/2098, Loss: 0.2657
+  Batch 700/2098, Loss: 0.2902
+  Batch 750/2098, Loss: 0.3393
+  Batch 800/2098, Loss: 0.0806
+  Batch 850/2098, Loss: 0.0603
+  Batch 900/2098, Loss: 0.1301
+  Batch 950/2098, Loss: 0.1361
+  Batch 1000/2098, Loss: 0.0604
+  Batch 1050/2098, Loss: 0.3758
+  Batch 1100/2098, Loss: 0.2550
+  Batch 1150/2098, Loss: 0.2338
+  Batch 1200/2098, Loss: 0.2240
+  Batch 1250/2098, Loss: 0.2466
+  Batch 1300/2098, Loss: 0.2445
+  Batch 1350/2098, Loss: 0.1952
+  Batch 1400/2098, Loss: 0.1135
+  Batch 1450/2098, Loss: 0.2636
+  Batch 1500/2098, Loss: 0.2005
+  Batch 1550/2098, Loss: 0.2413
+  Batch 1600/2098, Loss: 0.2819
+  Batch 1650/2098, Loss: 0.1419
+  Batch 1700/2098, Loss: 0.2776
+  Batch 1750/2098, Loss: 0.1913
+  Batch 1800/2098, Loss: 0.2009
+  Batch 1850/2098, Loss: 0.1685
+  Batch 1900/2098, Loss: 0.1892
+  Batch 1950/2098, Loss: 0.1311
+  Batch 2000/2098, Loss: 0.0830
+  Batch 2050/2098, Loss: 0.3557
+Train Loss: 0.2004 Acc: 0.9392
+Val Loss: 1.6655 Acc: 0.7856
+Validation inference time: 48.4430s total, 1.4434 ms/sample
+Epoch time: 406.20s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 27/50
+----------
+  Batch 50/2098, Loss: 0.1965
+  Batch 100/2098, Loss: 0.0976
+  Batch 150/2098, Loss: 0.1280
+  Batch 200/2098, Loss: 0.1128
+  Batch 250/2098, Loss: 0.0804
+  Batch 300/2098, Loss: 0.0848
+  Batch 350/2098, Loss: 0.1374
+  Batch 400/2098, Loss: 0.3142
+  Batch 450/2098, Loss: 0.1757
+  Batch 500/2098, Loss: 0.1791
+  Batch 550/2098, Loss: 0.0667
+  Batch 600/2098, Loss: 0.2130
+  Batch 650/2098, Loss: 0.0893
+  Batch 700/2098, Loss: 0.1104
+  Batch 750/2098, Loss: 0.1285
+  Batch 800/2098, Loss: 0.1435
+  Batch 850/2098, Loss: 0.1361
+  Batch 900/2098, Loss: 0.4479
+  Batch 950/2098, Loss: 0.2684
+  Batch 1000/2098, Loss: 0.1218
+  Batch 1050/2098, Loss: 0.2231
+  Batch 1100/2098, Loss: 0.2213
+  Batch 1150/2098, Loss: 0.2203
+  Batch 1200/2098, Loss: 0.0972
+  Batch 1250/2098, Loss: 0.1835
+  Batch 1300/2098, Loss: 0.1181
+  Batch 1350/2098, Loss: 0.1905
+  Batch 1400/2098, Loss: 0.1473
+  Batch 1450/2098, Loss: 0.1371
+  Batch 1500/2098, Loss: 0.1415
+  Batch 1550/2098, Loss: 0.2524
+  Batch 1600/2098, Loss: 0.1101
+  Batch 1650/2098, Loss: 0.1179
+  Batch 1700/2098, Loss: 0.2430
+  Batch 1750/2098, Loss: 0.1069
+  Batch 1800/2098, Loss: 0.0727
+  Batch 1850/2098, Loss: 0.1982
+  Batch 1900/2098, Loss: 0.2560
+  Batch 1950/2098, Loss: 0.1510
+  Batch 2000/2098, Loss: 0.2359
+  Batch 2050/2098, Loss: 0.2344
+Train Loss: 0.1927 Acc: 0.9414
+Val Loss: 1.6510 Acc: 0.7909
+Validation inference time: 48.3883s total, 1.4418 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 409.40s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 28/50
+----------
+  Batch 50/2098, Loss: 0.1503
+  Batch 100/2098, Loss: 0.1469
+  Batch 150/2098, Loss: 0.0865
+  Batch 200/2098, Loss: 0.1688
+  Batch 250/2098, Loss: 0.1669
+  Batch 300/2098, Loss: 0.2628
+  Batch 350/2098, Loss: 0.1319
+  Batch 400/2098, Loss: 0.1060
+  Batch 450/2098, Loss: 0.1507
+  Batch 500/2098, Loss: 0.3283
+  Batch 550/2098, Loss: 0.0422
+  Batch 600/2098, Loss: 0.1758
+  Batch 650/2098, Loss: 0.1768
+  Batch 700/2098, Loss: 0.2062
+  Batch 750/2098, Loss: 0.0855
+  Batch 800/2098, Loss: 0.1531
+  Batch 850/2098, Loss: 0.1203
+  Batch 900/2098, Loss: 0.3924
+  Batch 950/2098, Loss: 0.0733
+  Batch 1000/2098, Loss: 0.1018
+  Batch 1050/2098, Loss: 0.3257
+  Batch 1100/2098, Loss: 0.1412
+  Batch 1150/2098, Loss: 0.1760
+  Batch 1200/2098, Loss: 0.3801
+  Batch 1250/2098, Loss: 0.0418
+  Batch 1300/2098, Loss: 0.2296
+  Batch 1350/2098, Loss: 0.1333
+  Batch 1400/2098, Loss: 0.1146
+  Batch 1450/2098, Loss: 0.2245
+  Batch 1500/2098, Loss: 0.1963
+  Batch 1550/2098, Loss: 0.3480
+  Batch 1600/2098, Loss: 0.0776
+  Batch 1650/2098, Loss: 0.1873
+  Batch 1700/2098, Loss: 0.3437
+  Batch 1750/2098, Loss: 0.1283
+  Batch 1800/2098, Loss: 0.0988
+  Batch 1850/2098, Loss: 0.1941
+  Batch 1900/2098, Loss: 0.4444
+  Batch 1950/2098, Loss: 0.1893
+  Batch 2000/2098, Loss: 0.1120
+  Batch 2050/2098, Loss: 0.1377
+Train Loss: 0.1835 Acc: 0.9439
+Val Loss: 1.6954 Acc: 0.7883
+Validation inference time: 48.6201s total, 1.4487 ms/sample
+Epoch time: 405.88s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 29/50
+----------
+  Batch 50/2098, Loss: 0.1913
+  Batch 100/2098, Loss: 0.1587
+  Batch 150/2098, Loss: 0.0310
+  Batch 200/2098, Loss: 0.1781
+  Batch 250/2098, Loss: 0.1272
+  Batch 300/2098, Loss: 0.1667
+  Batch 350/2098, Loss: 0.1381
+  Batch 400/2098, Loss: 0.1418
+  Batch 450/2098, Loss: 0.6090
+  Batch 500/2098, Loss: 0.1285
+  Batch 550/2098, Loss: 0.1893
+  Batch 600/2098, Loss: 0.2607
+  Batch 650/2098, Loss: 0.2881
+  Batch 700/2098, Loss: 0.0792
+  Batch 750/2098, Loss: 0.3990
+  Batch 800/2098, Loss: 0.2035
+  Batch 850/2098, Loss: 0.2051
+  Batch 900/2098, Loss: 0.0866
+  Batch 950/2098, Loss: 0.1614
+  Batch 1000/2098, Loss: 0.1413
+  Batch 1050/2098, Loss: 0.1565
+  Batch 1100/2098, Loss: 0.1567
+  Batch 1150/2098, Loss: 0.3175
+  Batch 1200/2098, Loss: 0.2174
+  Batch 1250/2098, Loss: 0.3021
+  Batch 1300/2098, Loss: 0.0928
+  Batch 1350/2098, Loss: 0.3610
+  Batch 1400/2098, Loss: 0.2923
+  Batch 1450/2098, Loss: 0.2126
+  Batch 1500/2098, Loss: 0.1080
+  Batch 1550/2098, Loss: 0.1743
+  Batch 1600/2098, Loss: 0.2552
+  Batch 1650/2098, Loss: 0.1208
+  Batch 1700/2098, Loss: 0.1940
+  Batch 1750/2098, Loss: 0.1695
+  Batch 1800/2098, Loss: 0.1177
+  Batch 1850/2098, Loss: 0.1716
+  Batch 1900/2098, Loss: 0.1108
+  Batch 1950/2098, Loss: 0.1547
+  Batch 2000/2098, Loss: 0.2086
+  Batch 2050/2098, Loss: 0.2020
+Train Loss: 0.1766 Acc: 0.9460
+Val Loss: 1.7110 Acc: 0.7888
+Validation inference time: 40.6554s total, 1.2114 ms/sample
+Epoch time: 399.41s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 30/50
+----------
+  Batch 50/2098, Loss: 0.2335
+  Batch 100/2098, Loss: 0.1560
+  Batch 150/2098, Loss: 0.1601
+  Batch 200/2098, Loss: 0.1113
+  Batch 250/2098, Loss: 0.1168
+  Batch 300/2098, Loss: 0.1965
+  Batch 350/2098, Loss: 0.2766
+  Batch 400/2098, Loss: 0.2463
+  Batch 450/2098, Loss: 0.2428
+  Batch 500/2098, Loss: 0.2509
+  Batch 550/2098, Loss: 0.1603
+  Batch 600/2098, Loss: 0.2040
+  Batch 650/2098, Loss: 0.1375
+  Batch 700/2098, Loss: 0.0337
+  Batch 750/2098, Loss: 0.1694
+  Batch 800/2098, Loss: 0.1316
+  Batch 850/2098, Loss: 0.1429
+  Batch 900/2098, Loss: 0.1823
+  Batch 950/2098, Loss: 0.1036
+  Batch 1000/2098, Loss: 0.1880
+  Batch 1050/2098, Loss: 0.1362
+  Batch 1100/2098, Loss: 0.1439
+  Batch 1150/2098, Loss: 0.3780
+  Batch 1200/2098, Loss: 0.2529
+  Batch 1250/2098, Loss: 0.2520
+  Batch 1300/2098, Loss: 0.1125
+  Batch 1350/2098, Loss: 0.1224
+  Batch 1400/2098, Loss: 0.1324
+  Batch 1450/2098, Loss: 0.2487
+  Batch 1500/2098, Loss: 0.2066
+  Batch 1550/2098, Loss: 0.2032
+  Batch 1600/2098, Loss: 0.0893
+  Batch 1650/2098, Loss: 0.1134
+  Batch 1700/2098, Loss: 0.5051
+  Batch 1750/2098, Loss: 0.2855
+  Batch 1800/2098, Loss: 0.1168
+  Batch 1850/2098, Loss: 0.2502
+  Batch 1900/2098, Loss: 0.1695
+  Batch 1950/2098, Loss: 0.1856
+  Batch 2000/2098, Loss: 0.1425
+  Batch 2050/2098, Loss: 0.3993
+Train Loss: 0.1699 Acc: 0.9481
+Val Loss: 1.7112 Acc: 0.7891
+Validation inference time: 48.8856s total, 1.4566 ms/sample
+Epoch time: 405.59s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_30.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 31/50
+----------
+  Batch 50/2098, Loss: 0.0454
+  Batch 100/2098, Loss: 0.1475
+  Batch 150/2098, Loss: 0.0700
+  Batch 200/2098, Loss: 0.0344
+  Batch 250/2098, Loss: 0.1281
+  Batch 300/2098, Loss: 0.1674
+  Batch 350/2098, Loss: 0.1291
+  Batch 400/2098, Loss: 0.1037
+  Batch 450/2098, Loss: 0.3081
+  Batch 500/2098, Loss: 0.2500
+  Batch 550/2098, Loss: 0.1550
+  Batch 600/2098, Loss: 0.2104
+  Batch 650/2098, Loss: 0.2525
+  Batch 700/2098, Loss: 0.0764
+  Batch 750/2098, Loss: 0.1826
+  Batch 800/2098, Loss: 0.0709
+  Batch 850/2098, Loss: 0.0351
+  Batch 900/2098, Loss: 0.0673
+  Batch 950/2098, Loss: 0.1587
+  Batch 1000/2098, Loss: 0.2268
+  Batch 1050/2098, Loss: 0.1573
+  Batch 1100/2098, Loss: 0.2247
+  Batch 1150/2098, Loss: 0.3577
+  Batch 1200/2098, Loss: 0.0993
+  Batch 1250/2098, Loss: 0.1108
+  Batch 1300/2098, Loss: 0.1727
+  Batch 1350/2098, Loss: 0.1456
+  Batch 1400/2098, Loss: 0.1610
+  Batch 1450/2098, Loss: 0.1892
+  Batch 1500/2098, Loss: 0.2596
+  Batch 1550/2098, Loss: 0.1883
+  Batch 1600/2098, Loss: 0.2783
+  Batch 1650/2098, Loss: 0.1432
+  Batch 1700/2098, Loss: 0.1753
+  Batch 1750/2098, Loss: 0.1741
+  Batch 1800/2098, Loss: 0.1291
+  Batch 1850/2098, Loss: 0.1563
+  Batch 1900/2098, Loss: 0.0822
+  Batch 1950/2098, Loss: 0.0910
+  Batch 2000/2098, Loss: 0.1743
+  Batch 2050/2098, Loss: 0.1513
+Train Loss: 0.1616 Acc: 0.9506
+Val Loss: 1.7174 Acc: 0.7893
+Validation inference time: 46.2746s total, 1.3788 ms/sample
+Epoch time: 403.25s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 32/50
+----------
+  Batch 50/2098, Loss: 0.0858
+  Batch 100/2098, Loss: 0.0891
+  Batch 150/2098, Loss: 0.0464
+  Batch 200/2098, Loss: 0.3186
+  Batch 250/2098, Loss: 0.0826
+  Batch 300/2098, Loss: 0.1728
+  Batch 350/2098, Loss: 0.0780
+  Batch 400/2098, Loss: 0.1953
+  Batch 450/2098, Loss: 0.0678
+  Batch 500/2098, Loss: 0.0675
+  Batch 550/2098, Loss: 0.0781
+  Batch 600/2098, Loss: 0.2452
+  Batch 650/2098, Loss: 0.0338
+  Batch 700/2098, Loss: 0.2203
+  Batch 750/2098, Loss: 0.1644
+  Batch 800/2098, Loss: 0.0768
+  Batch 850/2098, Loss: 0.0890
+  Batch 900/2098, Loss: 0.1597
+  Batch 950/2098, Loss: 0.3781
+  Batch 1000/2098, Loss: 0.2528
+  Batch 1050/2098, Loss: 0.0843
+  Batch 1100/2098, Loss: 0.1775
+  Batch 1150/2098, Loss: 0.1091
+  Batch 1200/2098, Loss: 0.2791
+  Batch 1250/2098, Loss: 0.0872
+  Batch 1300/2098, Loss: 0.1705
+  Batch 1350/2098, Loss: 0.1066
+  Batch 1400/2098, Loss: 0.1017
+  Batch 1450/2098, Loss: 0.1996
+  Batch 1500/2098, Loss: 0.2751
+  Batch 1550/2098, Loss: 0.3201
+  Batch 1600/2098, Loss: 0.0988
+  Batch 1650/2098, Loss: 0.4020
+  Batch 1700/2098, Loss: 0.2590
+  Batch 1750/2098, Loss: 0.1317
+  Batch 1800/2098, Loss: 0.1040
+  Batch 1850/2098, Loss: 0.1079
+  Batch 1900/2098, Loss: 0.1600
+  Batch 1950/2098, Loss: 0.2230
+  Batch 2000/2098, Loss: 0.2290
+  Batch 2050/2098, Loss: 0.0548
+Train Loss: 0.1550 Acc: 0.9519
+Val Loss: 1.7536 Acc: 0.7892
+Validation inference time: 48.9903s total, 1.4597 ms/sample
+Epoch time: 407.20s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 33/50
+----------
+  Batch 50/2098, Loss: 0.2697
+  Batch 100/2098, Loss: 0.1978
+  Batch 150/2098, Loss: 0.1244
+  Batch 200/2098, Loss: 0.0760
+  Batch 250/2098, Loss: 0.1778
+  Batch 300/2098, Loss: 0.0759
+  Batch 350/2098, Loss: 0.1793
+  Batch 400/2098, Loss: 0.1241
+  Batch 450/2098, Loss: 0.1822
+  Batch 500/2098, Loss: 0.2137
+  Batch 550/2098, Loss: 0.1395
+  Batch 600/2098, Loss: 0.3869
+  Batch 650/2098, Loss: 0.2100
+  Batch 700/2098, Loss: 0.2280
+  Batch 750/2098, Loss: 0.0988
+  Batch 800/2098, Loss: 0.1450
+  Batch 850/2098, Loss: 0.1480
+  Batch 900/2098, Loss: 0.0711
+  Batch 950/2098, Loss: 0.2272
+  Batch 1000/2098, Loss: 0.2495
+  Batch 1050/2098, Loss: 0.1560
+  Batch 1100/2098, Loss: 0.0927
+  Batch 1150/2098, Loss: 0.1384
+  Batch 1200/2098, Loss: 0.2124
+  Batch 1250/2098, Loss: 0.0955
+  Batch 1300/2098, Loss: 0.0947
+  Batch 1350/2098, Loss: 0.1553
+  Batch 1400/2098, Loss: 0.1171
+  Batch 1450/2098, Loss: 0.0428
+  Batch 1500/2098, Loss: 0.0497
+  Batch 1550/2098, Loss: 0.0879
+  Batch 1600/2098, Loss: 0.1444
+  Batch 1650/2098, Loss: 0.1304
+  Batch 1700/2098, Loss: 0.1196
+  Batch 1750/2098, Loss: 0.0446
+  Batch 1800/2098, Loss: 0.1163
+  Batch 1850/2098, Loss: 0.1834
+  Batch 1900/2098, Loss: 0.0904
+  Batch 1950/2098, Loss: 0.0652
+  Batch 2000/2098, Loss: 0.2033
+  Batch 2050/2098, Loss: 0.0480
+Train Loss: 0.1455 Acc: 0.9552
+Val Loss: 1.7785 Acc: 0.7876
+Validation inference time: 49.2652s total, 1.4679 ms/sample
+Epoch time: 405.55s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 34/50
+----------
+  Batch 50/2098, Loss: 0.2854
+  Batch 100/2098, Loss: 0.1917
+  Batch 150/2098, Loss: 0.1523
+  Batch 200/2098, Loss: 0.1597
+  Batch 250/2098, Loss: 0.0489
+  Batch 300/2098, Loss: 0.0820
+  Batch 350/2098, Loss: 0.2293
+  Batch 400/2098, Loss: 0.2856
+  Batch 450/2098, Loss: 0.0826
+  Batch 500/2098, Loss: 0.0976
+  Batch 550/2098, Loss: 0.1131
+  Batch 600/2098, Loss: 0.0793
+  Batch 650/2098, Loss: 0.1288
+  Batch 700/2098, Loss: 0.1939
+  Batch 750/2098, Loss: 0.1405
+  Batch 800/2098, Loss: 0.0731
+  Batch 850/2098, Loss: 0.2050
+  Batch 900/2098, Loss: 0.1172
+  Batch 950/2098, Loss: 0.0732
+  Batch 1000/2098, Loss: 0.0713
+  Batch 1050/2098, Loss: 0.0833
+  Batch 1100/2098, Loss: 0.1915
+  Batch 1150/2098, Loss: 0.1971
+  Batch 1200/2098, Loss: 0.0803
+  Batch 1250/2098, Loss: 0.2518
+  Batch 1300/2098, Loss: 0.0932
+  Batch 1350/2098, Loss: 0.1984
+  Batch 1400/2098, Loss: 0.1405
+  Batch 1450/2098, Loss: 0.1353
+  Batch 1500/2098, Loss: 0.0540
+  Batch 1550/2098, Loss: 0.0915
+  Batch 1600/2098, Loss: 0.0755
+  Batch 1650/2098, Loss: 0.1464
+  Batch 1700/2098, Loss: 0.0691
+  Batch 1750/2098, Loss: 0.1791
+  Batch 1800/2098, Loss: 0.1503
+  Batch 1850/2098, Loss: 0.1003
+  Batch 1900/2098, Loss: 0.0433
+  Batch 1950/2098, Loss: 0.0849
+  Batch 2000/2098, Loss: 0.1769
+  Batch 2050/2098, Loss: 0.1083
+Train Loss: 0.1428 Acc: 0.9559
+Val Loss: 1.7811 Acc: 0.7913
+Validation inference time: 49.2661s total, 1.4680 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 408.27s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 35/50
+----------
+  Batch 50/2098, Loss: 0.1179
+  Batch 100/2098, Loss: 0.1524
+  Batch 150/2098, Loss: 0.2038
+  Batch 200/2098, Loss: 0.2347
+  Batch 250/2098, Loss: 0.0493
+  Batch 300/2098, Loss: 0.1394
+  Batch 350/2098, Loss: 0.1790
+  Batch 400/2098, Loss: 0.0863
+  Batch 450/2098, Loss: 0.1346
+  Batch 500/2098, Loss: 0.0963
+  Batch 550/2098, Loss: 0.0344
+  Batch 600/2098, Loss: 0.1117
+  Batch 650/2098, Loss: 0.1615
+  Batch 700/2098, Loss: 0.1575
+  Batch 750/2098, Loss: 0.1080
+  Batch 800/2098, Loss: 0.1875
+  Batch 850/2098, Loss: 0.1189
+  Batch 900/2098, Loss: 0.1848
+  Batch 950/2098, Loss: 0.1870
+  Batch 1000/2098, Loss: 0.1888
+  Batch 1050/2098, Loss: 0.2971
+  Batch 1100/2098, Loss: 0.1221
+  Batch 1150/2098, Loss: 0.0531
+  Batch 1200/2098, Loss: 0.1844
+  Batch 1250/2098, Loss: 0.1629
+  Batch 1300/2098, Loss: 0.1837
+  Batch 1350/2098, Loss: 0.0789
+  Batch 1400/2098, Loss: 0.0615
+  Batch 1450/2098, Loss: 0.1651
+  Batch 1500/2098, Loss: 0.2346
+  Batch 1550/2098, Loss: 0.0513
+  Batch 1600/2098, Loss: 0.0983
+  Batch 1650/2098, Loss: 0.1420
+  Batch 1700/2098, Loss: 0.0430
+  Batch 1750/2098, Loss: 0.0790
+  Batch 1800/2098, Loss: 0.1213
+  Batch 1850/2098, Loss: 0.1631
+  Batch 1900/2098, Loss: 0.1273
+  Batch 1950/2098, Loss: 0.2547
+  Batch 2000/2098, Loss: 0.1853
+  Batch 2050/2098, Loss: 0.1520
+Train Loss: 0.1424 Acc: 0.9564
+Val Loss: 1.7505 Acc: 0.7921
+Validation inference time: 47.6356s total, 1.4194 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 405.68s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_35.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 36/50
+----------
+  Batch 50/2098, Loss: 0.0424
+  Batch 100/2098, Loss: 0.2371
+  Batch 150/2098, Loss: 0.0725
+  Batch 200/2098, Loss: 0.1230
+  Batch 250/2098, Loss: 0.1302
+  Batch 300/2098, Loss: 0.0985
+  Batch 350/2098, Loss: 0.1208
+  Batch 400/2098, Loss: 0.1774
+  Batch 450/2098, Loss: 0.0554
+  Batch 500/2098, Loss: 0.2191
+  Batch 550/2098, Loss: 0.0866
+  Batch 600/2098, Loss: 0.1290
+  Batch 650/2098, Loss: 0.2047
+  Batch 700/2098, Loss: 0.0353
+  Batch 750/2098, Loss: 0.1766
+  Batch 800/2098, Loss: 0.1339
+  Batch 850/2098, Loss: 0.1416
+  Batch 900/2098, Loss: 0.1768
+  Batch 950/2098, Loss: 0.2919
+  Batch 1000/2098, Loss: 0.2017
+  Batch 1050/2098, Loss: 0.1639
+  Batch 1100/2098, Loss: 0.2375
+  Batch 1150/2098, Loss: 0.0677
+  Batch 1200/2098, Loss: 0.0383
+  Batch 1250/2098, Loss: 0.1594
+  Batch 1300/2098, Loss: 0.2009
+  Batch 1350/2098, Loss: 0.2176
+  Batch 1400/2098, Loss: 0.2040
+  Batch 1450/2098, Loss: 0.0819
+  Batch 1500/2098, Loss: 0.0951
+  Batch 1550/2098, Loss: 0.0873
+  Batch 1600/2098, Loss: 0.1816
+  Batch 1650/2098, Loss: 0.2075
+  Batch 1700/2098, Loss: 0.0954
+  Batch 1750/2098, Loss: 0.1354
+  Batch 1800/2098, Loss: 0.1384
+  Batch 1850/2098, Loss: 0.0586
+  Batch 1900/2098, Loss: 0.2947
+  Batch 1950/2098, Loss: 0.0601
+  Batch 2000/2098, Loss: 0.0608
+  Batch 2050/2098, Loss: 0.1065
+Train Loss: 0.1355 Acc: 0.9595
+Val Loss: 1.8075 Acc: 0.7909
+Validation inference time: 41.1264s total, 1.2254 ms/sample
+Epoch time: 402.43s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 37/50
+----------
+  Batch 50/2098, Loss: 0.2637
+  Batch 100/2098, Loss: 0.0990
+  Batch 150/2098, Loss: 0.0729
+  Batch 200/2098, Loss: 0.1551
+  Batch 250/2098, Loss: 0.1928
+  Batch 300/2098, Loss: 0.1664
+  Batch 350/2098, Loss: 0.0858
+  Batch 400/2098, Loss: 0.1436
+  Batch 450/2098, Loss: 0.1334
+  Batch 500/2098, Loss: 0.2176
+  Batch 550/2098, Loss: 0.0602
+  Batch 600/2098, Loss: 0.1344
+  Batch 650/2098, Loss: 0.1367
+  Batch 700/2098, Loss: 0.1324
+  Batch 750/2098, Loss: 0.0883
+  Batch 800/2098, Loss: 0.1100
+  Batch 850/2098, Loss: 0.1700
+  Batch 900/2098, Loss: 0.0940
+  Batch 950/2098, Loss: 0.1450
+  Batch 1000/2098, Loss: 0.1070
+  Batch 1050/2098, Loss: 0.1253
+  Batch 1100/2098, Loss: 0.1189
+  Batch 1150/2098, Loss: 0.3164
+  Batch 1200/2098, Loss: 0.1550
+  Batch 1250/2098, Loss: 0.0986
+  Batch 1300/2098, Loss: 0.1940
+  Batch 1350/2098, Loss: 0.2118
+  Batch 1400/2098, Loss: 0.0483
+  Batch 1450/2098, Loss: 0.2097
+  Batch 1500/2098, Loss: 0.2816
+  Batch 1550/2098, Loss: 0.1147
+  Batch 1600/2098, Loss: 0.0994
+  Batch 1650/2098, Loss: 0.0643
+  Batch 1700/2098, Loss: 0.1207
+  Batch 1750/2098, Loss: 0.1602
+  Batch 1800/2098, Loss: 0.2244
+  Batch 1850/2098, Loss: 0.1131
+  Batch 1900/2098, Loss: 0.0396
+  Batch 1950/2098, Loss: 0.0905
+  Batch 2000/2098, Loss: 0.0793
+  Batch 2050/2098, Loss: 0.1370
+Train Loss: 0.1303 Acc: 0.9601
+Val Loss: 1.8009 Acc: 0.7888
+Validation inference time: 47.6140s total, 1.4187 ms/sample
+Epoch time: 408.92s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 38/50
+----------
+  Batch 50/2098, Loss: 0.1053
+  Batch 100/2098, Loss: 0.0881
+  Batch 150/2098, Loss: 0.0972
+  Batch 200/2098, Loss: 0.0687
+  Batch 250/2098, Loss: 0.0884
+  Batch 300/2098, Loss: 0.0964
+  Batch 350/2098, Loss: 0.1427
+  Batch 400/2098, Loss: 0.1368
+  Batch 450/2098, Loss: 0.1599
+  Batch 500/2098, Loss: 0.0987
+  Batch 550/2098, Loss: 0.0650
+  Batch 600/2098, Loss: 0.1338
+  Batch 650/2098, Loss: 0.1441
+  Batch 700/2098, Loss: 0.0297
+  Batch 750/2098, Loss: 0.0866
+  Batch 800/2098, Loss: 0.1871
+  Batch 850/2098, Loss: 0.1216
+  Batch 900/2098, Loss: 0.0941
+  Batch 950/2098, Loss: 0.1799
+  Batch 1000/2098, Loss: 0.1859
+  Batch 1050/2098, Loss: 0.1502
+  Batch 1100/2098, Loss: 0.0847
+  Batch 1150/2098, Loss: 0.1514
+  Batch 1200/2098, Loss: 0.0807
+  Batch 1250/2098, Loss: 0.1721
+  Batch 1300/2098, Loss: 0.0725
+  Batch 1350/2098, Loss: 0.0473
+  Batch 1400/2098, Loss: 0.0489
+  Batch 1450/2098, Loss: 0.1718
+  Batch 1500/2098, Loss: 0.1022
+  Batch 1550/2098, Loss: 0.0913
+  Batch 1600/2098, Loss: 0.1701
+  Batch 1650/2098, Loss: 0.1367
+  Batch 1700/2098, Loss: 0.1174
+  Batch 1750/2098, Loss: 0.0420
+  Batch 1800/2098, Loss: 0.0780
+  Batch 1850/2098, Loss: 0.1501
+  Batch 1900/2098, Loss: 0.1091
+  Batch 1950/2098, Loss: 0.0909
+  Batch 2000/2098, Loss: 0.0604
+  Batch 2050/2098, Loss: 0.0512
+Train Loss: 0.1272 Acc: 0.9612
+Val Loss: 1.7484 Acc: 0.7941
+Validation inference time: 47.6444s total, 1.4196 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 408.42s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 39/50
+----------
+  Batch 50/2098, Loss: 0.0502
+  Batch 100/2098, Loss: 0.1332
+  Batch 150/2098, Loss: 0.1999
+  Batch 200/2098, Loss: 0.1873
+  Batch 250/2098, Loss: 0.0886
+  Batch 300/2098, Loss: 0.0554
+  Batch 350/2098, Loss: 0.1429
+  Batch 400/2098, Loss: 0.1383
+  Batch 450/2098, Loss: 0.1575
+  Batch 500/2098, Loss: 0.1799
+  Batch 550/2098, Loss: 0.0929
+  Batch 600/2098, Loss: 0.0494
+  Batch 650/2098, Loss: 0.0873
+  Batch 700/2098, Loss: 0.0505
+  Batch 750/2098, Loss: 0.1322
+  Batch 800/2098, Loss: 0.3279
+  Batch 850/2098, Loss: 0.1000
+  Batch 900/2098, Loss: 0.1012
+  Batch 950/2098, Loss: 0.0312
+  Batch 1000/2098, Loss: 0.1336
+  Batch 1050/2098, Loss: 0.1374
+  Batch 1100/2098, Loss: 0.1709
+  Batch 1150/2098, Loss: 0.2072
+  Batch 1200/2098, Loss: 0.1590
+  Batch 1250/2098, Loss: 0.0748
+  Batch 1300/2098, Loss: 0.0117
+  Batch 1350/2098, Loss: 0.1074
+  Batch 1400/2098, Loss: 0.1293
+  Batch 1450/2098, Loss: 0.0472
+  Batch 1500/2098, Loss: 0.2173
+  Batch 1550/2098, Loss: 0.0828
+  Batch 1600/2098, Loss: 0.1420
+  Batch 1650/2098, Loss: 0.0855
+  Batch 1700/2098, Loss: 0.0454
+  Batch 1750/2098, Loss: 0.0422
+  Batch 1800/2098, Loss: 0.0411
+  Batch 1850/2098, Loss: 0.1421
+  Batch 1900/2098, Loss: 0.0745
+  Batch 1950/2098, Loss: 0.0946
+  Batch 2000/2098, Loss: 0.0140
+  Batch 2050/2098, Loss: 0.1640
+Train Loss: 0.1223 Acc: 0.9632
+Val Loss: 1.7846 Acc: 0.7897
+Validation inference time: 48.3973s total, 1.4421 ms/sample
+Epoch time: 407.33s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 40/50
+----------
+  Batch 50/2098, Loss: 0.1605
+  Batch 100/2098, Loss: 0.1824
+  Batch 150/2098, Loss: 0.0496
+  Batch 200/2098, Loss: 0.1264
+  Batch 250/2098, Loss: 0.1066
+  Batch 300/2098, Loss: 0.0653
+  Batch 350/2098, Loss: 0.1111
+  Batch 400/2098, Loss: 0.0300
+  Batch 450/2098, Loss: 0.1702
+  Batch 500/2098, Loss: 0.0569
+  Batch 550/2098, Loss: 0.0930
+  Batch 600/2098, Loss: 0.0387
+  Batch 650/2098, Loss: 0.0364
+  Batch 700/2098, Loss: 0.1006
+  Batch 750/2098, Loss: 0.0730
+  Batch 800/2098, Loss: 0.2087
+  Batch 850/2098, Loss: 0.0419
+  Batch 900/2098, Loss: 0.0374
+  Batch 950/2098, Loss: 0.0729
+  Batch 1000/2098, Loss: 0.1574
+  Batch 1050/2098, Loss: 0.0983
+  Batch 1100/2098, Loss: 0.0474
+  Batch 1150/2098, Loss: 0.0619
+  Batch 1200/2098, Loss: 0.0994
+  Batch 1250/2098, Loss: 0.0429
+  Batch 1300/2098, Loss: 0.0372
+  Batch 1350/2098, Loss: 0.0820
+  Batch 1400/2098, Loss: 0.0636
+  Batch 1450/2098, Loss: 0.0497
+  Batch 1500/2098, Loss: 0.0700
+  Batch 1550/2098, Loss: 0.1105
+  Batch 1600/2098, Loss: 0.0320
+  Batch 1650/2098, Loss: 0.1136
+  Batch 1700/2098, Loss: 0.0873
+  Batch 1750/2098, Loss: 0.0153
+  Batch 1800/2098, Loss: 0.1199
+  Batch 1850/2098, Loss: 0.2211
+  Batch 1900/2098, Loss: 0.1355
+  Batch 1950/2098, Loss: 0.0440
+  Batch 2000/2098, Loss: 0.1111
+  Batch 2050/2098, Loss: 0.1454
+Train Loss: 0.1191 Acc: 0.9635
+Val Loss: 1.8400 Acc: 0.7914
+Validation inference time: 48.4871s total, 1.4447 ms/sample
+Epoch time: 408.48s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_40.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 41/50
+----------
+  Batch 50/2098, Loss: 0.0742
+  Batch 100/2098, Loss: 0.1143
+  Batch 150/2098, Loss: 0.1046
+  Batch 200/2098, Loss: 0.0416
+  Batch 250/2098, Loss: 0.1092
+  Batch 300/2098, Loss: 0.0461
+  Batch 350/2098, Loss: 0.0912
+  Batch 400/2098, Loss: 0.0941
+  Batch 450/2098, Loss: 0.0935
+  Batch 500/2098, Loss: 0.1175
+  Batch 550/2098, Loss: 0.0860
+  Batch 600/2098, Loss: 0.1238
+  Batch 650/2098, Loss: 0.0149
+  Batch 700/2098, Loss: 0.1395
+  Batch 750/2098, Loss: 0.1747
+  Batch 800/2098, Loss: 0.1110
+  Batch 850/2098, Loss: 0.0977
+  Batch 900/2098, Loss: 0.0639
+  Batch 950/2098, Loss: 0.1557
+  Batch 1000/2098, Loss: 0.0240
+  Batch 1050/2098, Loss: 0.0968
+  Batch 1100/2098, Loss: 0.1298
+  Batch 1150/2098, Loss: 0.1704
+  Batch 1200/2098, Loss: 0.1460
+  Batch 1250/2098, Loss: 0.1423
+  Batch 1300/2098, Loss: 0.1096
+  Batch 1350/2098, Loss: 0.2067
+  Batch 1400/2098, Loss: 0.2206
+  Batch 1450/2098, Loss: 0.0788
+  Batch 1500/2098, Loss: 0.2207
+  Batch 1550/2098, Loss: 0.2314
+  Batch 1600/2098, Loss: 0.0770
+  Batch 1650/2098, Loss: 0.0613
+  Batch 1700/2098, Loss: 0.2014
+  Batch 1750/2098, Loss: 0.0955
+  Batch 1800/2098, Loss: 0.1034
+  Batch 1850/2098, Loss: 0.1753
+  Batch 1900/2098, Loss: 0.2997
+  Batch 1950/2098, Loss: 0.1103
+  Batch 2000/2098, Loss: 0.1433
+  Batch 2050/2098, Loss: 0.0909
+Train Loss: 0.1164 Acc: 0.9645
+Val Loss: 1.8101 Acc: 0.7935
+Validation inference time: 48.6199s total, 1.4487 ms/sample
+Epoch time: 407.22s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 42/50
+----------
+  Batch 50/2098, Loss: 0.0696
+  Batch 100/2098, Loss: 0.1842
+  Batch 150/2098, Loss: 0.1427
+  Batch 200/2098, Loss: 0.1333
+  Batch 250/2098, Loss: 0.1706
+  Batch 300/2098, Loss: 0.0554
+  Batch 350/2098, Loss: 0.0335
+  Batch 400/2098, Loss: 0.2268
+  Batch 450/2098, Loss: 0.1234
+  Batch 500/2098, Loss: 0.1300
+  Batch 550/2098, Loss: 0.0773
+  Batch 600/2098, Loss: 0.2127
+  Batch 650/2098, Loss: 0.1983
+  Batch 700/2098, Loss: 0.1516
+  Batch 750/2098, Loss: 0.0942
+  Batch 800/2098, Loss: 0.0850
+  Batch 850/2098, Loss: 0.0620
+  Batch 900/2098, Loss: 0.1005
+  Batch 950/2098, Loss: 0.0259
+  Batch 1000/2098, Loss: 0.0737
+  Batch 1050/2098, Loss: 0.1321
+  Batch 1100/2098, Loss: 0.0355
+  Batch 1150/2098, Loss: 0.0974
+  Batch 1200/2098, Loss: 0.0401
+  Batch 1250/2098, Loss: 0.1008
+  Batch 1300/2098, Loss: 0.0239
+  Batch 1350/2098, Loss: 0.1265
+  Batch 1400/2098, Loss: 0.1440
+  Batch 1450/2098, Loss: 0.0367
+  Batch 1500/2098, Loss: 0.0783
+  Batch 1550/2098, Loss: 0.1279
+  Batch 1600/2098, Loss: 0.1110
+  Batch 1650/2098, Loss: 0.1056
+  Batch 1700/2098, Loss: 0.1235
+  Batch 1750/2098, Loss: 0.0593
+  Batch 1800/2098, Loss: 0.2301
+  Batch 1850/2098, Loss: 0.1624
+  Batch 1900/2098, Loss: 0.1094
+  Batch 1950/2098, Loss: 0.1488
+  Batch 2000/2098, Loss: 0.1302
+  Batch 2050/2098, Loss: 0.2006
+Train Loss: 0.1138 Acc: 0.9647
+Val Loss: 1.7921 Acc: 0.7944
+Validation inference time: 48.3373s total, 1.4403 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 407.12s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 43/50
+----------
+  Batch 50/2098, Loss: 0.1913
+  Batch 100/2098, Loss: 0.0533
+  Batch 150/2098, Loss: 0.0727
+  Batch 200/2098, Loss: 0.0204
+  Batch 250/2098, Loss: 0.0738
+  Batch 300/2098, Loss: 0.0868
+  Batch 350/2098, Loss: 0.1290
+  Batch 400/2098, Loss: 0.0387
+  Batch 450/2098, Loss: 0.0580
+  Batch 500/2098, Loss: 0.0805
+  Batch 550/2098, Loss: 0.0574
+  Batch 600/2098, Loss: 0.0354
+  Batch 650/2098, Loss: 0.0220
+  Batch 700/2098, Loss: 0.1205
+  Batch 750/2098, Loss: 0.0521
+  Batch 800/2098, Loss: 0.0532
+  Batch 850/2098, Loss: 0.0393
+  Batch 900/2098, Loss: 0.0317
+  Batch 950/2098, Loss: 0.3327
+  Batch 1000/2098, Loss: 0.0767
+  Batch 1050/2098, Loss: 0.2650
+  Batch 1100/2098, Loss: 0.1119
+  Batch 1150/2098, Loss: 0.0806
+  Batch 1200/2098, Loss: 0.0903
+  Batch 1250/2098, Loss: 0.0997
+  Batch 1300/2098, Loss: 0.0299
+  Batch 1350/2098, Loss: 0.1527
+  Batch 1400/2098, Loss: 0.0988
+  Batch 1450/2098, Loss: 0.2568
+  Batch 1500/2098, Loss: 0.1169
+  Batch 1550/2098, Loss: 0.0740
+  Batch 1600/2098, Loss: 0.0656
+  Batch 1650/2098, Loss: 0.1292
+  Batch 1700/2098, Loss: 0.0530
+  Batch 1750/2098, Loss: 0.1223
+  Batch 1800/2098, Loss: 0.0237
+  Batch 1850/2098, Loss: 0.0747
+  Batch 1900/2098, Loss: 0.0448
+  Batch 1950/2098, Loss: 0.1408
+  Batch 2000/2098, Loss: 0.1732
+  Batch 2050/2098, Loss: 0.1299
+Train Loss: 0.1082 Acc: 0.9672
+Val Loss: 1.8521 Acc: 0.7918
+Validation inference time: 48.6601s total, 1.4499 ms/sample
+Epoch time: 407.98s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 44/50
+----------
+  Batch 50/2098, Loss: 0.1391
+  Batch 100/2098, Loss: 0.0822
+  Batch 150/2098, Loss: 0.0673
+  Batch 200/2098, Loss: 0.0384
+  Batch 250/2098, Loss: 0.1586
+  Batch 300/2098, Loss: 0.1368
+  Batch 350/2098, Loss: 0.0926
+  Batch 400/2098, Loss: 0.0227
+  Batch 450/2098, Loss: 0.0803
+  Batch 500/2098, Loss: 0.0383
+  Batch 550/2098, Loss: 0.0706
+  Batch 600/2098, Loss: 0.0446
+  Batch 650/2098, Loss: 0.1282
+  Batch 700/2098, Loss: 0.0586
+  Batch 750/2098, Loss: 0.1058
+  Batch 800/2098, Loss: 0.2163
+  Batch 850/2098, Loss: 0.1342
+  Batch 900/2098, Loss: 0.1203
+  Batch 950/2098, Loss: 0.0274
+  Batch 1000/2098, Loss: 0.0530
+  Batch 1050/2098, Loss: 0.1403
+  Batch 1100/2098, Loss: 0.1657
+  Batch 1150/2098, Loss: 0.1246
+  Batch 1200/2098, Loss: 0.0665
+  Batch 1250/2098, Loss: 0.0964
+  Batch 1300/2098, Loss: 0.0883
+  Batch 1350/2098, Loss: 0.3504
+  Batch 1400/2098, Loss: 0.0567
+  Batch 1450/2098, Loss: 0.0703
+  Batch 1500/2098, Loss: 0.0900
+  Batch 1550/2098, Loss: 0.1241
+  Batch 1600/2098, Loss: 0.1003
+  Batch 1650/2098, Loss: 0.1221
+  Batch 1700/2098, Loss: 0.0990
+  Batch 1750/2098, Loss: 0.2562
+  Batch 1800/2098, Loss: 0.0778
+  Batch 1850/2098, Loss: 0.2161
+  Batch 1900/2098, Loss: 0.1082
+  Batch 1950/2098, Loss: 0.1151
+  Batch 2000/2098, Loss: 0.0817
+  Batch 2050/2098, Loss: 0.0529
+Train Loss: 0.1066 Acc: 0.9669
+Val Loss: 1.8115 Acc: 0.7930
+Validation inference time: 49.2887s total, 1.4686 ms/sample
+Epoch time: 405.77s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 45/50
+----------
+  Batch 50/2098, Loss: 0.0805
+  Batch 100/2098, Loss: 0.0532
+  Batch 150/2098, Loss: 0.1113
+  Batch 200/2098, Loss: 0.1029
+  Batch 250/2098, Loss: 0.0291
+  Batch 300/2098, Loss: 0.1869
+  Batch 350/2098, Loss: 0.0519
+  Batch 400/2098, Loss: 0.0276
+  Batch 450/2098, Loss: 0.1880
+  Batch 500/2098, Loss: 0.0796
+  Batch 550/2098, Loss: 0.0654
+  Batch 600/2098, Loss: 0.1298
+  Batch 650/2098, Loss: 0.0937
+  Batch 700/2098, Loss: 0.0431
+  Batch 750/2098, Loss: 0.0753
+  Batch 800/2098, Loss: 0.0747
+  Batch 850/2098, Loss: 0.0401
+  Batch 900/2098, Loss: 0.1355
+  Batch 950/2098, Loss: 0.0805
+  Batch 1000/2098, Loss: 0.1205
+  Batch 1050/2098, Loss: 0.1294
+  Batch 1100/2098, Loss: 0.0616
+  Batch 1150/2098, Loss: 0.0318
+  Batch 1200/2098, Loss: 0.0659
+  Batch 1250/2098, Loss: 0.2177
+  Batch 1300/2098, Loss: 0.0678
+  Batch 1350/2098, Loss: 0.0898
+  Batch 1400/2098, Loss: 0.0840
+  Batch 1450/2098, Loss: 0.0302
+  Batch 1500/2098, Loss: 0.0196
+  Batch 1550/2098, Loss: 0.2269
+  Batch 1600/2098, Loss: 0.0947
+  Batch 1650/2098, Loss: 0.0638
+  Batch 1700/2098, Loss: 0.0928
+  Batch 1750/2098, Loss: 0.1155
+  Batch 1800/2098, Loss: 0.1461
+  Batch 1850/2098, Loss: 0.1585
+  Batch 1900/2098, Loss: 0.1123
+  Batch 1950/2098, Loss: 0.0571
+  Batch 2000/2098, Loss: 0.0947
+  Batch 2050/2098, Loss: 0.1215
+Train Loss: 0.1020 Acc: 0.9687
+Val Loss: 1.9085 Acc: 0.7918
+Validation inference time: 48.9030s total, 1.4571 ms/sample
+Epoch time: 406.20s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_45.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 46/50
+----------
+  Batch 50/2098, Loss: 0.1480
+  Batch 100/2098, Loss: 0.1758
+  Batch 150/2098, Loss: 0.1938
+  Batch 200/2098, Loss: 0.1023
+  Batch 250/2098, Loss: 0.0661
+  Batch 300/2098, Loss: 0.2352
+  Batch 350/2098, Loss: 0.0687
+  Batch 400/2098, Loss: 0.0991
+  Batch 450/2098, Loss: 0.1766
+  Batch 500/2098, Loss: 0.1034
+  Batch 550/2098, Loss: 0.0580
+  Batch 600/2098, Loss: 0.0621
+  Batch 650/2098, Loss: 0.3680
+  Batch 700/2098, Loss: 0.0302
+  Batch 750/2098, Loss: 0.0572
+  Batch 800/2098, Loss: 0.1037
+  Batch 850/2098, Loss: 0.1168
+  Batch 900/2098, Loss: 0.1649
+  Batch 950/2098, Loss: 0.1215
+  Batch 1000/2098, Loss: 0.0244
+  Batch 1050/2098, Loss: 0.0166
+  Batch 1100/2098, Loss: 0.0992
+  Batch 1150/2098, Loss: 0.1183
+  Batch 1200/2098, Loss: 0.3477
+  Batch 1250/2098, Loss: 0.0326
+  Batch 1300/2098, Loss: 0.0261
+  Batch 1350/2098, Loss: 0.1352
+  Batch 1400/2098, Loss: 0.1962
+  Batch 1450/2098, Loss: 0.1399
+  Batch 1500/2098, Loss: 0.1428
+  Batch 1550/2098, Loss: 0.0879
+  Batch 1600/2098, Loss: 0.2287
+  Batch 1650/2098, Loss: 0.1164
+  Batch 1700/2098, Loss: 0.0988
+  Batch 1750/2098, Loss: 0.0481
+  Batch 1800/2098, Loss: 0.0548
+  Batch 1850/2098, Loss: 0.0297
+  Batch 1900/2098, Loss: 0.2085
+  Batch 1950/2098, Loss: 0.0487
+  Batch 2000/2098, Loss: 0.0970
+  Batch 2050/2098, Loss: 0.0247
+Train Loss: 0.1055 Acc: 0.9680
+Val Loss: 1.8217 Acc: 0.7918
+Validation inference time: 49.2649s total, 1.4679 ms/sample
+Epoch time: 405.98s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 47/50
+----------
+  Batch 50/2098, Loss: 0.0678
+  Batch 100/2098, Loss: 0.0628
+  Batch 150/2098, Loss: 0.2277
+  Batch 200/2098, Loss: 0.0754
+  Batch 250/2098, Loss: 0.0772
+  Batch 300/2098, Loss: 0.0273
+  Batch 350/2098, Loss: 0.0420
+  Batch 400/2098, Loss: 0.0370
+  Batch 450/2098, Loss: 0.0686
+  Batch 500/2098, Loss: 0.1612
+  Batch 550/2098, Loss: 0.1041
+  Batch 600/2098, Loss: 0.2017
+  Batch 650/2098, Loss: 0.1454
+  Batch 700/2098, Loss: 0.1071
+  Batch 750/2098, Loss: 0.2552
+  Batch 800/2098, Loss: 0.0542
+  Batch 850/2098, Loss: 0.0647
+  Batch 900/2098, Loss: 0.0586
+  Batch 950/2098, Loss: 0.0938
+  Batch 1000/2098, Loss: 0.1194
+  Batch 1050/2098, Loss: 0.0161
+  Batch 1100/2098, Loss: 0.0641
+  Batch 1150/2098, Loss: 0.1488
+  Batch 1200/2098, Loss: 0.1449
+  Batch 1250/2098, Loss: 0.0753
+  Batch 1300/2098, Loss: 0.1030
+  Batch 1350/2098, Loss: 0.1510
+  Batch 1400/2098, Loss: 0.1633
+  Batch 1450/2098, Loss: 0.0582
+  Batch 1500/2098, Loss: 0.1719
+  Batch 1550/2098, Loss: 0.0581
+  Batch 1600/2098, Loss: 0.0764
+  Batch 1650/2098, Loss: 0.0604
+  Batch 1700/2098, Loss: 0.0241
+  Batch 1750/2098, Loss: 0.2248
+  Batch 1800/2098, Loss: 0.2370
+  Batch 1850/2098, Loss: 0.0986
+  Batch 1900/2098, Loss: 0.1001
+  Batch 1950/2098, Loss: 0.0435
+  Batch 2000/2098, Loss: 0.1964
+  Batch 2050/2098, Loss: 0.0709
+Train Loss: 0.0976 Acc: 0.9703
+Val Loss: 1.8310 Acc: 0.7944
+Validation inference time: 48.5619s total, 1.4470 ms/sample
+Epoch time: 406.12s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 48/50
+----------
+  Batch 50/2098, Loss: 0.1109
+  Batch 100/2098, Loss: 0.1189
+  Batch 150/2098, Loss: 0.0886
+  Batch 200/2098, Loss: 0.0955
+  Batch 250/2098, Loss: 0.0912
+  Batch 300/2098, Loss: 0.0356
+  Batch 350/2098, Loss: 0.0529
+  Batch 400/2098, Loss: 0.1158
+  Batch 450/2098, Loss: 0.0556
+  Batch 500/2098, Loss: 0.0530
+  Batch 550/2098, Loss: 0.1357
+  Batch 600/2098, Loss: 0.0348
+  Batch 650/2098, Loss: 0.2601
+  Batch 700/2098, Loss: 0.1416
+  Batch 750/2098, Loss: 0.0548
+  Batch 800/2098, Loss: 0.0497
+  Batch 850/2098, Loss: 0.0917
+  Batch 900/2098, Loss: 0.1433
+  Batch 950/2098, Loss: 0.0612
+  Batch 1000/2098, Loss: 0.1376
+  Batch 1050/2098, Loss: 0.0493
+  Batch 1100/2098, Loss: 0.0414
+  Batch 1150/2098, Loss: 0.2368
+  Batch 1200/2098, Loss: 0.0840
+  Batch 1250/2098, Loss: 0.0875
+  Batch 1300/2098, Loss: 0.1734
+  Batch 1350/2098, Loss: 0.0432
+  Batch 1400/2098, Loss: 0.0312
+  Batch 1450/2098, Loss: 0.0394
+  Batch 1500/2098, Loss: 0.1365
+  Batch 1550/2098, Loss: 0.0974
+  Batch 1600/2098, Loss: 0.0945
+  Batch 1650/2098, Loss: 0.0685
+  Batch 1700/2098, Loss: 0.0881
+  Batch 1750/2098, Loss: 0.1720
+  Batch 1800/2098, Loss: 0.0961
+  Batch 1850/2098, Loss: 0.0430
+  Batch 1900/2098, Loss: 0.0347
+  Batch 1950/2098, Loss: 0.1291
+  Batch 2000/2098, Loss: 0.1399
+  Batch 2050/2098, Loss: 0.0682
+Train Loss: 0.0971 Acc: 0.9696
+Val Loss: 1.8791 Acc: 0.7951
+Validation inference time: 49.2578s total, 1.4677 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 405.99s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 49/50
+----------
+  Batch 50/2098, Loss: 0.0592
+  Batch 100/2098, Loss: 0.0943
+  Batch 150/2098, Loss: 0.0239
+  Batch 200/2098, Loss: 0.0832
+  Batch 250/2098, Loss: 0.2169
+  Batch 300/2098, Loss: 0.0345
+  Batch 350/2098, Loss: 0.2452
+  Batch 400/2098, Loss: 0.0414
+  Batch 450/2098, Loss: 0.0668
+  Batch 500/2098, Loss: 0.0467
+  Batch 550/2098, Loss: 0.1289
+  Batch 600/2098, Loss: 0.0967
+  Batch 650/2098, Loss: 0.0521
+  Batch 700/2098, Loss: 0.0645
+  Batch 750/2098, Loss: 0.0569
+  Batch 800/2098, Loss: 0.0949
+  Batch 850/2098, Loss: 0.0451
+  Batch 900/2098, Loss: 0.0542
+  Batch 950/2098, Loss: 0.1540
+  Batch 1000/2098, Loss: 0.0814
+  Batch 1050/2098, Loss: 0.0374
+  Batch 1100/2098, Loss: 0.0489
+  Batch 1150/2098, Loss: 0.0486
+  Batch 1200/2098, Loss: 0.0932
+  Batch 1250/2098, Loss: 0.0525
+  Batch 1300/2098, Loss: 0.1269
+  Batch 1350/2098, Loss: 0.0809
+  Batch 1400/2098, Loss: 0.0368
+  Batch 1450/2098, Loss: 0.1101
+  Batch 1500/2098, Loss: 0.0808
+  Batch 1550/2098, Loss: 0.0514
+  Batch 1600/2098, Loss: 0.0935
+  Batch 1650/2098, Loss: 0.1530
+  Batch 1700/2098, Loss: 0.1505
+  Batch 1750/2098, Loss: 0.0781
+  Batch 1800/2098, Loss: 0.0304
+  Batch 1850/2098, Loss: 0.0344
+  Batch 1900/2098, Loss: 0.2267
+  Batch 1950/2098, Loss: 0.0740
+  Batch 2000/2098, Loss: 0.1103
+  Batch 2050/2098, Loss: 0.0929
+Train Loss: 0.0919 Acc: 0.9712
+Val Loss: 1.8717 Acc: 0.7958
+Validation inference time: 43.4206s total, 1.2938 ms/sample
+Best model saved to output/models/lr_0.0005_bs_64/best_model.pth
+Best model metrics saved to output/logs/lr_0.0005_bs_64/best_model_metrics.json and output/logs/lr_0.0005_bs_64/best_model_metrics.txt
+Epoch time: 401.30s
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Epoch 50/50
+----------
+  Batch 50/2098, Loss: 0.0713
+  Batch 100/2098, Loss: 0.0302
+  Batch 150/2098, Loss: 0.0364
+  Batch 200/2098, Loss: 0.0259
+  Batch 250/2098, Loss: 0.1855
+  Batch 300/2098, Loss: 0.0901
+  Batch 350/2098, Loss: 0.1176
+  Batch 400/2098, Loss: 0.0987
+  Batch 450/2098, Loss: 0.0371
+  Batch 500/2098, Loss: 0.0529
+  Batch 550/2098, Loss: 0.1160
+  Batch 600/2098, Loss: 0.0221
+  Batch 650/2098, Loss: 0.0104
+  Batch 700/2098, Loss: 0.1248
+  Batch 750/2098, Loss: 0.1942
+  Batch 800/2098, Loss: 0.0374
+  Batch 850/2098, Loss: 0.0435
+  Batch 900/2098, Loss: 0.1001
+  Batch 950/2098, Loss: 0.1090
+  Batch 1000/2098, Loss: 0.1269
+  Batch 1050/2098, Loss: 0.0994
+  Batch 1100/2098, Loss: 0.0592
+  Batch 1150/2098, Loss: 0.0624
+  Batch 1200/2098, Loss: 0.0491
+  Batch 1250/2098, Loss: 0.0126
+  Batch 1300/2098, Loss: 0.0533
+  Batch 1350/2098, Loss: 0.0615
+  Batch 1400/2098, Loss: 0.1470
+  Batch 1450/2098, Loss: 0.0746
+  Batch 1500/2098, Loss: 0.1884
+  Batch 1550/2098, Loss: 0.0685
+  Batch 1600/2098, Loss: 0.0957
+  Batch 1650/2098, Loss: 0.0440
+  Batch 1700/2098, Loss: 0.0180
+  Batch 1750/2098, Loss: 0.1773
+  Batch 1800/2098, Loss: 0.0317
+  Batch 1850/2098, Loss: 0.1401
+  Batch 1900/2098, Loss: 0.1604
+  Batch 1950/2098, Loss: 0.2312
+  Batch 2000/2098, Loss: 0.1040
+  Batch 2050/2098, Loss: 0.0284
+Train Loss: 0.0935 Acc: 0.9708
+Val Loss: 1.8938 Acc: 0.7929
+Validation inference time: 41.0744s total, 1.2239 ms/sample
+Epoch time: 401.69s
+Checkpoint saved to output/models/lr_0.0005_bs_64/checkpoint_epoch_50.pth
+Checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+
+Training complete. Best validation accuracy: 0.7958
+Total training time: 20697.80s
+Average epoch time: 411.78s
+Saved epoch metrics CSV to output/logs/lr_0.0005_bs_64/train_metrics.csv
+Saved epoch metrics JSON to output/logs/lr_0.0005_bs_64/train_metrics.json
+Latest checkpoint saved to output/models/lr_0.0005_bs_64/latest_checkpoint.pth
+Saved training summary to output/logs/lr_0.0005_bs_64/training_summary.json and output/logs/lr_0.0005_bs_64/training_summary.txt
