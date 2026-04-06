@@ -11,6 +11,7 @@ import torch.nn as nn
 import torch.optim as optim
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset, random_split
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torchvision.models import ResNet50_Weights, resnet50
 from torchvision.transforms import transforms
 
@@ -30,6 +31,24 @@ class TeeLogger:
 
     def close(self):
         self.log_file.close()
+
+
+class EarlyStopping:
+    def __init__(self, patience=8, min_delta=0.0):
+        self.patience = patience
+        self.min_delta = min_delta
+        self.best_loss = float("inf")
+        self.counter = 0
+
+    def step(self, current_loss):
+        if current_loss < self.best_loss - self.min_delta:
+            self.best_loss = current_loss
+            self.counter = 0
+            return False, True
+
+        self.counter += 1
+        should_stop = self.counter >= self.patience
+        return should_stop, False
 
 
 class CalligraphyDataset(Dataset):
@@ -96,13 +115,15 @@ def save_checkpoint(state, filename='checkpoint.pth'):
     print(f"Checkpoint saved to {filename}")
 
 
-def load_checkpoint(checkpoint_path, model, optimizer):
+def load_checkpoint(checkpoint_path, model, optimizer, scheduler=None):
     if os.path.isfile(checkpoint_path):
         print(f"Loading checkpoint from {checkpoint_path}")
         checkpoint = torch.load(checkpoint_path)
 
         model.load_state_dict(checkpoint['model_state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        if scheduler is not None and 'scheduler_state_dict' in checkpoint:
+            scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
 
         start_epoch = checkpoint['epoch']
         best_acc = checkpoint['best_acc']
@@ -227,6 +248,7 @@ def save_metrics(history, csv_path, json_path):
                 'val_acc',
                 'best_val_acc_so_far',
                 'epoch_time_seconds',
+                'learning_rate',
             ]
         )
         writer.writeheader()
@@ -288,6 +310,11 @@ def main():
     parser.add_argument('--checkpoint-freq', type=int, default=5, help='Save checkpoint every N epochs')
     parser.add_argument('--log-dir', type=str, default='output/logs', help='Directory to save training logs and metrics.')
     parser.add_argument('--model-dir', type=str, default='output/models', help='Directory to save model weights and checkpoints.')
+    parser.add_argument('--lr-patience', type=int, default=3, help='ReduceLROnPlateau patience based on validation loss.')
+    parser.add_argument('--lr-factor', type=float, default=0.5, help='ReduceLROnPlateau decay factor.')
+    parser.add_argument('--min-lr', type=float, default=1e-6, help='Minimum learning rate for ReduceLROnPlateau.')
+    parser.add_argument('--early-stop-patience', type=int, default=8, help='Early stopping patience based on validation loss.')
+    parser.add_argument('--early-stop-min-delta', type=float, default=0.0, help='Minimum validation loss improvement for early stopping.')
     args = parser.parse_args()
 
     os.makedirs(args.log_dir, exist_ok=True)
@@ -356,15 +383,34 @@ def main():
         model = get_model(num_classes).to(device)
         criterion = nn.CrossEntropyLoss()
         optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
+        scheduler = ReduceLROnPlateau(
+            optimizer,
+            mode='min',
+            factor=args.lr_factor,
+            patience=args.lr_patience,
+            min_lr=args.min_lr,
+        )
+        early_stopper = EarlyStopping(
+            patience=args.early_stop_patience,
+            min_delta=args.early_stop_min_delta,
+        )
         total_parameters = sum(p.numel() for p in model.parameters())
         trainable_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
         print(f"Total parameters: {total_parameters}")
         print(f"Trainable parameters: {trainable_parameters}")
+        print(
+            f"ReduceLROnPlateau enabled: factor={args.lr_factor}, "
+            f"patience={args.lr_patience}, min_lr={args.min_lr}"
+        )
+        print(
+            f"EarlyStopping enabled: patience={args.early_stop_patience}, "
+            f"min_delta={args.early_stop_min_delta}"
+        )
 
         start_epoch = 0
         best_acc = 0.0
         if args.resume:
-            start_epoch, best_acc, _ = load_checkpoint(args.resume, model, optimizer)
+            start_epoch, best_acc, _ = load_checkpoint(args.resume, model, optimizer, scheduler)
 
         for epoch in range(start_epoch, args.epochs):
             epoch_start = time.perf_counter()
@@ -378,12 +424,19 @@ def main():
                 model, dataloaders['val'], criterion, device, measure_inference=True
             )
             print(f"Val Loss: {val_loss:.4f} Acc: {val_acc:.4f}")
+            current_lr = optimizer.param_groups[0]['lr']
+            print(f"Current learning rate: {current_lr:.8f}")
             if len(y_true) > 0:
                 print(
                     "Validation inference time: "
                     f"{inference_time_seconds:.4f}s total, "
                     f"{(inference_time_seconds / len(y_true)) * 1000:.4f} ms/sample"
                 )
+
+            scheduler.step(val_loss)
+            new_lr = optimizer.param_groups[0]['lr']
+            if new_lr != current_lr:
+                print(f"Learning rate reduced to: {new_lr:.8f}")
 
             if val_acc > best_acc:
                 best_acc = val_acc
@@ -417,6 +470,7 @@ def main():
                 'val_acc': float(val_acc),
                 'best_val_acc_so_far': float(best_acc),
                 'epoch_time_seconds': float(epoch_time_seconds),
+                'learning_rate': float(optimizer.param_groups[0]['lr']),
             })
             save_metrics(history, metrics_csv_path, metrics_json_path)
 
@@ -426,6 +480,7 @@ def main():
                     'epoch': epoch + 1,
                     'model_state_dict': model.state_dict(),
                     'optimizer_state_dict': optimizer.state_dict(),
+                    'scheduler_state_dict': scheduler.state_dict(),
                     'best_acc': best_acc,
                     'loss': val_loss,
                 }, checkpoint_path)
@@ -434,9 +489,22 @@ def main():
                 'epoch': epoch + 1,
                 'model_state_dict': model.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
+                'scheduler_state_dict': scheduler.state_dict(),
                 'best_acc': best_acc,
                 'loss': val_loss,
             }, latest_checkpoint_path)
+
+            should_stop, improved = early_stopper.step(float(val_loss))
+            if improved:
+                print("EarlyStopping monitor: validation loss improved.")
+            else:
+                print(
+                    "EarlyStopping monitor: no validation loss improvement "
+                    f"({early_stopper.counter}/{early_stopper.patience})."
+                )
+            if should_stop:
+                print(f"Early stopping triggered at epoch {epoch + 1}.")
+                break
 
         total_training_time_seconds = time.perf_counter() - total_training_start
         average_epoch_time_seconds = (

@@ -18,10 +18,10 @@ def load_experiment(exp_dir: Path):
 
 def plot_metric_curves(experiments, output_path: Path, metric_key: str, title: str, ylabel: str):
     fig, ax = plt.subplots(figsize=(9, 5))
-    for lr_label, train_metrics, _ in experiments:
+    for bs_label, train_metrics, _ in experiments:
         epochs = [item["epoch"] for item in train_metrics]
         values = [item[metric_key] for item in train_metrics]
-        ax.plot(epochs, values, linewidth=2, label=lr_label)
+        ax.plot(epochs, values, linewidth=2, label=bs_label)
 
     ax.set_title(title)
     ax.set_xlabel("Epoch")
@@ -34,14 +34,14 @@ def plot_metric_curves(experiments, output_path: Path, metric_key: str, title: s
 
 
 def plot_best_metrics_bar(experiments, output_path: Path):
-    lr_labels = [lr_label for lr_label, _, _ in experiments]
+    bs_labels = [bs_label for bs_label, _, _ in experiments]
     acc = [best_metrics["accuracy"] for _, _, best_metrics in experiments]
     precision = [best_metrics["precision"] for _, _, best_metrics in experiments]
     recall = [best_metrics["recall"] for _, _, best_metrics in experiments]
     f1 = [best_metrics["f1"] for _, _, best_metrics in experiments]
     macro_f1 = [best_metrics["macro_f1"] for _, _, best_metrics in experiments]
 
-    x = range(len(lr_labels))
+    x = range(len(bs_labels))
     width = 0.16
 
     fig, ax = plt.subplots(figsize=(11, 5))
@@ -51,11 +51,11 @@ def plot_best_metrics_bar(experiments, output_path: Path):
     ax.bar([i + width for i in x], f1, width=width, label="F1")
     ax.bar([i + 2 * width for i in x], macro_f1, width=width, label="Macro F1")
 
-    ax.set_title("Best Metrics by Learning Rate")
-    ax.set_xlabel("Learning Rate")
+    ax.set_title("Best Metrics by Batch Size")
+    ax.set_xlabel("Batch Size")
     ax.set_ylabel("Score")
     ax.set_xticks(list(x))
-    ax.set_xticklabels(lr_labels)
+    ax.set_xticklabels(bs_labels)
     ax.set_ylim(0, 1.0)
     ax.grid(True, axis="y", alpha=0.3)
     ax.legend()
@@ -66,9 +66,9 @@ def plot_best_metrics_bar(experiments, output_path: Path):
 
 def save_summary(experiments, output_path: Path):
     lines = []
-    for lr_label, _, best_metrics in experiments:
+    for bs_label, _, best_metrics in experiments:
         lines.append(
-            f"{lr_label}: "
+            f"{bs_label}: "
             f"epoch={best_metrics['epoch']}, "
             f"acc={best_metrics['accuracy']:.4f}, "
             f"precision={best_metrics['precision']:.4f}, "
@@ -84,23 +84,15 @@ def save_summary(experiments, output_path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Plot comparison curves for multiple learning rates.")
-    parser.add_argument(
-        "--log-root",
-        default="output/logs",
-        help="Root directory containing lr_xxx experiment folders.",
-    )
+    parser = argparse.ArgumentParser(description="Plot comparison curves for multiple batch sizes.")
+    parser.add_argument("--log-root", default="output/logs", help="Root directory containing experiment folders.")
     parser.add_argument(
         "--experiments",
         nargs="+",
-        default=["lr_0.001_bs_32", "lr_0.0001_bs_32", "lr_0.0005_bs_32"],
+        default=["lr_0.0005_bs_16", "lr_0.0005_bs_32", "lr_0.0005_bs_64"],
         help="Experiment folder names to compare.",
     )
-    parser.add_argument(
-        "--outdir",
-        default="output/figures/lr_comparison",
-        help="Directory to save comparison figures.",
-    )
+    parser.add_argument("--outdir", default="output/figures/bs_comparison", help="Directory to save comparison figures.")
     args = parser.parse_args()
 
     log_root = Path(args.log_root)
@@ -111,8 +103,8 @@ def main():
     for exp_name in args.experiments:
         exp_dir = log_root / exp_name
         train_metrics, best_metrics = load_experiment(exp_dir)
-        lr_label = exp_name.split("_bs_")[0].replace("lr_", "lr=")
-        experiments.append((lr_label, train_metrics, best_metrics))
+        bs_label = f"bs={exp_name.split('_bs_')[1]}"
+        experiments.append((bs_label, train_metrics, best_metrics))
 
     plot_metric_curves(experiments, outdir / "train_loss_comparison.png", "train_loss", "Train Loss Comparison", "Train Loss")
     plot_metric_curves(experiments, outdir / "val_loss_comparison.png", "val_loss", "Validation Loss Comparison", "Val Loss")
